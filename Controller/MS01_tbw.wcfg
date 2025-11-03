@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/MS01_MS01_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ms01_ms01_sch_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vl_types" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/ms01_ms01_sch_tb/clk100m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk100m</obj_property>
+      <obj_property name="ObjectShortName">clk100m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/RASGO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RASGO[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RASGO[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/lba" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lba[19:0]</obj_property>
+      <obj_property name="ObjectShortName">lba[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/lbrd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lbrd</obj_property>
+      <obj_property name="ObjectShortName">lbrd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/lbwr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lbwr</obj_property>
+      <obj_property name="ObjectShortName">lbwr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/lbdin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lbdin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">lbdin[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/lbdout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lbdout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">lbdout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/RDOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RDOUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RDOUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_DramIo/DRRDY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DRRDY</obj_property>
+      <obj_property name="ObjectShortName">DRRDY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_DramIo/DRDONE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DRDONE</obj_property>
+      <obj_property name="ObjectShortName">DRDONE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_DramIo/XLXI_Dram/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/HOLDREQ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">HOLDREQ</obj_property>
+      <obj_property name="ObjectShortName">HOLDREQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/MRDn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MRDn</obj_property>
+      <obj_property name="ObjectShortName">MRDn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_DramIo/MDIN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MDIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MDIN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/MEMA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEMA[18:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMA[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_Halil/A_HDNUM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A_HDNUM[2:0]</obj_property>
+      <obj_property name="ObjectShortName">A_HDNUM[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_Halil/A_INHEAD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A_INHEAD[5:0]</obj_property>
+      <obj_property name="ObjectShortName">A_INHEAD[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_Halil/A_RASNUM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A_RASNUM[9:0]</obj_property>
+      <obj_property name="ObjectShortName">A_RASNUM[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_Halil/RASPNT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RASPNT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RASPNT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XCONFIG" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">XCONFIG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">XCONFIG[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_Halil/XLXI_RamAddr/XLXI_HeadSize/ODDOFF" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ODDOFF[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ODDOFF[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_Halil/XLXI_RamAddr/XLXI_HeadSize/LASTBY" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LASTBY[5:0]</obj_property>
+      <obj_property name="ObjectShortName">LASTBY[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_Halil/XLXI_RamAddr/HEAD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HEAD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HEAD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_DataOp8/XLXI_DataOp0/SD_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SD_EN</obj_property>
+      <obj_property name="ObjectShortName">SD_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_DataOp8/XLXI_DataOp0/DATAOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DATAOUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATAOUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_DataOp8/XLXI_DataOp1/DATAOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DATAOUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATAOUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ms01_ms01_sch_tb/UUT/XLXI_Common/XLXI_Halil/XLXI_RamAddr/INV" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INV[7:0]</obj_property>
+      <obj_property name="ObjectShortName">INV[7:0]</obj_property>
+   </wvobject>
+</wave_config>

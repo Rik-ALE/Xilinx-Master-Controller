@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01/EdgeCross_EdgeCross_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="edgecross_edgecross_sch_tb" />
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/edgecross_edgecross_sch_tb/UUT/RST" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edgecross_edgecross_sch_tb/clkin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edgecross_edgecross_sch_tb/clkout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkout</obj_property>
+      <obj_property name="ObjectShortName">clkout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edgecross_edgecross_sch_tb/pulse" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pulse</obj_property>
+      <obj_property name="ObjectShortName">pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edgecross_edgecross_sch_tb/edgep" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">edgep</obj_property>
+      <obj_property name="ObjectShortName">edgep</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edgecross_edgecross_sch_tb/UUT/PULSEM0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PULSEM0</obj_property>
+      <obj_property name="ObjectShortName">PULSEM0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edgecross_edgecross_sch_tb/UUT/PULSEM1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PULSEM1</obj_property>
+      <obj_property name="ObjectShortName">PULSEM1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edgecross_edgecross_sch_tb/UUT/PULSEP0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PULSEP0</obj_property>
+      <obj_property name="ObjectShortName">PULSEP0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edgecross_edgecross_sch_tb/UUT/PULSEP1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PULSEP1</obj_property>
+      <obj_property name="ObjectShortName">PULSEP1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edgecross_edgecross_sch_tb/UUT/PULSEP2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PULSEP2</obj_property>
+      <obj_property name="ObjectShortName">PULSEP2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/edgecross_edgecross_sch_tb/UUT/XLXN_264" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">XLXN_264</obj_property>
+      <obj_property name="ObjectShortName">XLXN_264</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,10 @@
+Video_Source.sch and Video_Source2.vhd are copied from ../MS01-ISE14
+
+The originals are in the MS01 ISE project for design & simulation, but not linked in.
+
+The batch file copies them here and converts Video_Source.sch -> vhd ready for IP repacking.
+
+- See !M-Something-Notes_2.odt howto notes for Vivado IP packaging guide:
+ - In case of only VHDL changing: 
+	- right-click: soc_core.bd in sources window -> reset o/p products -> generate
+	- NOTE: do this actual generate! Don't depend on a higher level build.

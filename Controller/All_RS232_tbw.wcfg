@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/All_RS232_All_RS232_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="all_rs232_all_rs232_sch_tb" />
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/TX" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TX[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TX[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/TX_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TX_EN</obj_property>
+      <obj_property name="ObjectShortName">TX_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/XLXI_RS232_TXD2/DOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DOUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DOUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/XLXI_RS232_TXD2/DOUT_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DOUT_EN</obj_property>
+      <obj_property name="ObjectShortName">DOUT_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/TXDn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TXDn</obj_property>
+      <obj_property name="ObjectShortName">TXDn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/RXDn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RXDn</obj_property>
+      <obj_property name="ObjectShortName">RXDn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/XLXI_RS232_TXD2/TPULSE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TPULSE</obj_property>
+      <obj_property name="ObjectShortName">TPULSE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/RX_POLL" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RX_POLL</obj_property>
+      <obj_property name="ObjectShortName">RX_POLL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/RX" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RX[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RX[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/baud" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">baud[3:0]</obj_property>
+      <obj_property name="ObjectShortName">baud[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/FOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FOUT[63:0]</obj_property>
+      <obj_property name="ObjectShortName">FOUT[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/FOUTEN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FOUTEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FOUTEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/EMPTY" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EMPTY[7:0]</obj_property>
+      <obj_property name="ObjectShortName">EMPTY[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/BAUDX4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">BAUDX4</obj_property>
+      <obj_property name="ObjectShortName">BAUDX4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/TXHD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TXHD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">TXHD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/RTFIRE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RTFIRE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RTFIRE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/TXHDS_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TXHDS_EN</obj_property>
+      <obj_property name="ObjectShortName">TXHDS_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/TXHDS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TXHDS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TXHDS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/XLXI_All_UARTS/FIN_TX" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FIN_TX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FIN_TX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/all_rs232_all_rs232_sch_tb/UUT/XLXI_All_UARTS/FOUT_TX" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FOUT_TX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FOUT_TX[31:0]</obj_property>
+   </wvobject>
+</wave_config>

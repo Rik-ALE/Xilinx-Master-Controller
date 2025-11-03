@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/user/mnt/Xilnx/MS01/Controller/Io_Io_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="io_io_sch_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/io_io_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/diva" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">diva[15:0]</obj_property>
+      <obj_property name="ObjectShortName">diva[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/senc[0]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">senc[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/senc[1]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">senc[1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/UUT/XLXI_Discr_0/quad_raw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">quad_raw</obj_property>
+      <obj_property name="ObjectShortName">quad_raw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/UUT/XLXI_Discr_0/quad" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">quad</obj_property>
+      <obj_property name="ObjectShortName">quad</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/UUT/XLXI_Discr_0/dir_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dir_i</obj_property>
+      <obj_property name="ObjectShortName">dir_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/UUT/XLXI_Discr_0/sense" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sense</obj_property>
+      <obj_property name="ObjectShortName">sense</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/UUT/PAUSED[0]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">PAUSED[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/UUT/RASGO[0]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">RASGO[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/UUT/XLXI_Discr_0/tp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">tp[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/UUT/TP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TP[5:0]</obj_property>
+      <obj_property name="ObjectShortName">TP[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/simulate" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">simulate</obj_property>
+      <obj_property name="ObjectShortName">simulate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/UUT/XLXI_Discr_0/cntdn_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntdn_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">cntdn_i[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/io_io_sch_tb/UUT/XLXI_Discr_0/senc_last" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">senc_last[1:0]</obj_property>
+      <obj_property name="ObjectShortName">senc_last[1:0]</obj_property>
+   </wvobject>
+</wave_config>

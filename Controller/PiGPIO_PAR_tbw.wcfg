@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/PiGPIO_PAR_PiGPIO_PAR_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="pigpio_par_pigpio_par_sch_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/clkcore" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkcore</obj_property>
+      <obj_property name="ObjectShortName">clkcore</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/clkfast" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkfast</obj_property>
+      <obj_property name="ObjectShortName">clkfast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/regdi" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regdi[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regdi[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/irq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">irq</obj_property>
+      <obj_property name="ObjectShortName">irq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/gpin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">gpin[12:0]</obj_property>
+      <obj_property name="ObjectShortName">gpin[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/spi_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">spi_0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/rega" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rega[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rega[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/regdo" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regdo[7:0]</obj_property>
+      <obj_property name="ObjectShortName">regdo[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/regwr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regwr</obj_property>
+      <obj_property name="ObjectShortName">regwr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/regrd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regrd</obj_property>
+      <obj_property name="ObjectShortName">regrd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/UUT/PIGPIOFAST/REGRDP0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">REGRDP0</obj_property>
+      <obj_property name="ObjectShortName">REGRDP0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/UUT/DOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DOUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DOUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/gpout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">gpout[8:0]</obj_property>
+      <obj_property name="ObjectShortName">gpout[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/lastwr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lastwr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lastwr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/in_strobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_strobe</obj_property>
+      <obj_property name="ObjectShortName">in_strobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/in_wrnrd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_wrnrd</obj_property>
+      <obj_property name="ObjectShortName">in_wrnrd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/in_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/UUT/REGRD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">REGRD</obj_property>
+      <obj_property name="ObjectShortName">REGRD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/UUT/REGWR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">REGWR</obj_property>
+      <obj_property name="ObjectShortName">REGWR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/UUT/REGA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">REGA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">REGA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/UUT/PIGPIOFAST/STROBE_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">STROBE_N</obj_property>
+      <obj_property name="ObjectShortName">STROBE_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/UUT/PIGPIOFAST/STROBE_P" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">STROBE_P</obj_property>
+      <obj_property name="ObjectShortName">STROBE_P</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pigpio_par_pigpio_par_sch_tb/UUT/PIGPIOFAST/DOUT2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DOUT2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DOUT2[7:0]</obj_property>
+   </wvobject>
+</wave_config>

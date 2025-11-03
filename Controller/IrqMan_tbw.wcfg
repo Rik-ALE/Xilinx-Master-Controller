@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/IrqMan_IrqMan_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="irqman_irqman_sch_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/irqman_irqman_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/irqen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">irqen</obj_property>
+      <obj_property name="ObjectShortName">irqen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/irq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">irq</obj_property>
+      <obj_property name="ObjectShortName">irq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/irqclr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">irqclr</obj_property>
+      <obj_property name="ObjectShortName">irqclr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/irqs[2]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[2]</obj_property>
+      <obj_property name="ObjectShortName">irqs[2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/pend[2]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[2]</obj_property>
+      <obj_property name="ObjectShortName">pend[2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/irqmaskn[2]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[2]</obj_property>
+      <obj_property name="ObjectShortName">irqmaskn[2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/irqack[2]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[2]</obj_property>
+      <obj_property name="ObjectShortName">irqack[2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/irqs[3]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[3]</obj_property>
+      <obj_property name="ObjectShortName">irqs[3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/pend[3]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[3]</obj_property>
+      <obj_property name="ObjectShortName">pend[3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/irqmaskn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">irqmaskn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">irqmaskn[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/irqs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">irqs[3:0]</obj_property>
+      <obj_property name="ObjectShortName">irqs[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/pend" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pend[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pend[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/irqack" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">irqack[3:0]</obj_property>
+      <obj_property name="ObjectShortName">irqack[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/irqman_irqman_sch_tb/invert" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">invert</obj_property>
+      <obj_property name="ObjectShortName">invert</obj_property>
+   </wvobject>
+</wave_config>

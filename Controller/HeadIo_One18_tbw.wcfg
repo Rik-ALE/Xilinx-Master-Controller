@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/HeadIo_One18_HeadIo_One18_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="headio_one18_headio_one18_sch_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="36" />
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/en16m" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">en16m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">en16m[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/hdata_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hdata_en</obj_property>
+      <obj_property name="ObjectShortName">hdata_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/hdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hdata[3:0]</obj_property>
+      <obj_property name="ObjectShortName">hdata[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/regs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regs[63:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/firein" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">firein</obj_property>
+      <obj_property name="ObjectShortName">firein</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/nsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nsel[7:0]</obj_property>
+      <obj_property name="ObjectShortName">nsel[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/spisi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spisi</obj_property>
+      <obj_property name="ObjectShortName">spisi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/lda" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lda[8:1]</obj_property>
+      <obj_property name="ObjectShortName">lda[8:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/FSCK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">FSCK</obj_property>
+      <obj_property name="ObjectShortName">FSCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">XDATA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">XDATA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/DB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DB[6:4]</obj_property>
+      <obj_property name="ObjectShortName">DB[6:4]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/DA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DA[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DA[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/CONFIG" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CONFIG</obj_property>
+      <obj_property name="ObjectShortName">CONFIG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/HSEL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HSEL[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HSEL[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/ISSII" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ISSII</obj_property>
+      <obj_property name="ObjectShortName">ISSII</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/FFIRE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">FFIRE</obj_property>
+      <obj_property name="ObjectShortName">FFIRE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_SHRASTERISE/INVERT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INVERT[1:0]</obj_property>
+      <obj_property name="ObjectShortName">INVERT[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/XLXI_MultiStrike2/XLXI_FireTrain/FIREMAP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FIREMAP[17:0]</obj_property>
+      <obj_property name="ObjectShortName">FIREMAP[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/XLXI_MultiStrike2/XLXI_FireTrain/FIRETIME" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FIRETIME[15:0]</obj_property>
+      <obj_property name="ObjectShortName">FIRETIME[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/XLXI_MultiStrike2/XLXI_FireTrain/T" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">T[17:0]</obj_property>
+      <obj_property name="ObjectShortName">T[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/XHITS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">XHITS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">XHITS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/XLXI_MultiStrike2/XLXI_FireTrain/LIMIT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LIMIT[1:0]</obj_property>
+      <obj_property name="ObjectShortName">LIMIT[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/XLXI_MultiStrike2/XLXI_FireTrain/ENDCNT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ENDCNT</obj_property>
+      <obj_property name="ObjectShortName">ENDCNT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/XLXI_MultiStrike2/XLXI_FireTrain/ACTIVE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ACTIVE</obj_property>
+      <obj_property name="ObjectShortName">ACTIVE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/XLXI_MultiStrike2/XLXI_FireTrain/ABCEN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ABCEN</obj_property>
+      <obj_property name="ObjectShortName">ABCEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/MAXHITS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MAXHITS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MAXHITS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/LT233US" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LT233US</obj_property>
+      <obj_property name="ObjectShortName">LT233US</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/LT350US" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LT350US</obj_property>
+      <obj_property name="ObjectShortName">LT350US</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/VHI" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">VHI</obj_property>
+      <obj_property name="ObjectShortName">VHI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/PL35" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PL35</obj_property>
+      <obj_property name="ObjectShortName">PL35</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/XLXI_MultiStrike2/XLXI_FireTrain/FIREEN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">FIREEN</obj_property>
+      <obj_property name="ObjectShortName">FIREEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/XLXI_MultiStrike2/XTRAHITS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">XTRAHITS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">XTRAHITS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/XLXI_MultiStrike2/XTRAHITS2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">XTRAHITS2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">XTRAHITS2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headio_one18_headio_one18_sch_tb/UUT/XLXI_HEADIO2/XLXI_MultiStrike/XLXI_MultiStrike2/XLXI_FireTrain/BUGGED" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">BUGGED</obj_property>
+      <obj_property name="ObjectShortName">BUGGED</obj_property>
+   </wvobject>
+</wave_config>

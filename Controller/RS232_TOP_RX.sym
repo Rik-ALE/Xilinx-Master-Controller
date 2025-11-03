@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="RS232_TOP_RX">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2018-2-2T3:24:17</timestamp>
+    <pin polarity="Input" x="0" y="-224" name="BAUDX4_EN" />
+    <pin polarity="Input" x="0" y="-288" name="CLK" />
+    <pin polarity="Input" x="0" y="-352" name="RSTn" />
+    <pin polarity="Output" x="448" y="-352" name="RX(7:0)" />
+    <pin polarity="Input" x="0" y="-160" name="RXD" />
+    <pin polarity="Output" x="448" y="-224" name="RXEMPTY" />
+    <pin polarity="Output" x="448" y="-96" name="RXERR" />
+    <pin polarity="Output" x="448" y="-160" name="RXFULL" />
+    <pin polarity="Input" x="0" y="-96" name="RXREQ_EN" />
+    <pin polarity="Output" x="448" y="-288" name="RX_EN" />
+    <pin polarity="Output" x="448" y="-32" name="TP(7:0)" />
+    <graph>
+        <rect width="320" x="64" y="-384" height="384" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="224" y="-392" type="symbol" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin BAUDX4_EN" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin CLK" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin RSTn" />
+        <line x2="448" y1="-352" y2="-352" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-352" type="pin RX(7:0)" />
+        <rect width="64" x="384" y="-364" height="24" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin RXD" />
+        <line x2="448" y1="-224" y2="-224" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-224" type="pin RXEMPTY" />
+        <line x2="448" y1="-96" y2="-96" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-96" type="pin RXERR" />
+        <line x2="448" y1="-160" y2="-160" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-160" type="pin RXFULL" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin RXREQ_EN" />
+        <line x2="448" y1="-288" y2="-288" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-288" type="pin RX_EN" />
+        <line x2="448" y1="-32" y2="-32" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-32" type="pin TP(7:0)" />
+        <rect width="64" x="384" y="-44" height="24" />
+    </graph>
+</symbol>

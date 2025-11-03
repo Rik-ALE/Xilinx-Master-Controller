@@ -1,0 +1,51 @@
+16:06:15 **** Incremental Build of configuration Debug for project test_vga ****
+make all 
+make: Rien à faire pour « all ».
+16:06:23 **** Incremental Build of configuration Debug for project test_vga ****
+make all 
+make: Rien à faire pour « all ».
+16:07:50 **** Auto Build of configuration Debug for project test_vga ****
+make all 
+'Building file: ../src/testvga.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testvga.o" -I../../MZ_Basic_System_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/testvga.d" -MT"src/testvga.d" -o "src/testvga.o" "../src/testvga.c"
+'Finished building: ../src/testvga.c'
+' '
+'Building target: test_vga.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MZ_Basic_System_bsp/ps7_cortexa9_0/lib -o "test_vga.elf"  ./src/platform.o ./src/testvga.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_vga.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size test_vga.elf  |tee "test_vga.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34532	   2192	  22628	  59352	   e7d8	test_vga.elf
+'Finished building: test_vga.elf.size'
+' '
+16:07:54 **** Incremental Build of configuration Debug for project test_vga ****
+make all 
+make: Rien à faire pour « all ».
+16:10:11 **** Auto Build of configuration Debug for project test_shared_mem ****
+make all 
+'Building file: ../src/testsharedmem.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testsharedmem.o" -I../../MZ_Basic_System_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/testsharedmem.d" -MT"src/testsharedmem.d" -o "src/testsharedmem.o" "../src/testsharedmem.c"
+'Finished building: ../src/testsharedmem.c'
+' '
+'Building target: test_shared_mem.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MZ_Basic_System_bsp/ps7_cortexa9_0/lib -o "test_shared_mem.elf"  ./src/platform.o ./src/testsharedmem.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_shared_mem.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size test_shared_mem.elf  |tee "test_shared_mem.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  65268	   2320	1071212	1138800	 116070	test_shared_mem.elf
+'Finished building: test_shared_mem.elf.size'
+' '
+16:10:16 **** Incremental Build of configuration Debug for project test_shared_mem ****
+make all 
+make: Rien à faire pour « all ».
+16:10:38 **** Incremental Build of configuration Debug for project test_shared_mem ****
+make all 
+make: Rien à faire pour « all ».

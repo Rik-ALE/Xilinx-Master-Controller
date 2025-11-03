@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER ali3_serializer
+	OPTION supported_peripherals = (ali3_serializer);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = ali3_serializer;
+END DRIVER

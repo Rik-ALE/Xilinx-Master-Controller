@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/Fifo_Mux8_Fifo_Mux8_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="fifo_mux8_fifo_mux8_sch_tb" />
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/fin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fin[63:0]</obj_property>
+      <obj_property name="ObjectShortName">fin[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/finen" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">finen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">finen[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/anyerr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">anyerr</obj_property>
+      <obj_property name="ObjectShortName">anyerr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/XLXI_FiMuxVhd/wrachan" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wrachan[2:0]</obj_property>
+      <obj_property name="ObjectShortName">wrachan[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/XLXI_FiMuxVhd/wraoff" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wraoff[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wraoff[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/RAMAO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMAO[10:0]</obj_property>
+      <obj_property name="ObjectShortName">RAMAO[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/RAMDO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMDO[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAMDO[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/RAMWR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMWR</obj_property>
+      <obj_property name="ObjectShortName">RAMWR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/XLXI_FiMuxVhd/wrpend" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wrpend[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wrpend[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/XLXI_FiMuxVhd/wrcache" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wrcache[0:7]</obj_property>
+      <obj_property name="ObjectShortName">wrcache[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/foutpoll" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">foutpoll[7:0]</obj_property>
+      <obj_property name="ObjectShortName">foutpoll[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/RAMRD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMRD</obj_property>
+      <obj_property name="ObjectShortName">RAMRD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/RAMAI" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMAI[10:0]</obj_property>
+      <obj_property name="ObjectShortName">RAMAI[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/fouten" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fouten[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fouten[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/XLXI_FiMuxVhd/foutpoll[1]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">foutpoll[1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/foutpoll[3]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[3]</obj_property>
+      <obj_property name="ObjectShortName">foutpoll[3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/RAMDI" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMDI[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAMDI[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/fout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fout[63:0]</obj_property>
+      <obj_property name="ObjectShortName">fout[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/fouten[1]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">fouten[1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/XLXI_FiMuxVhd/fouten[3]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[3]</obj_property>
+      <obj_property name="ObjectShortName">fouten[3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/XLXI_FiMuxVhd/err_inover" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">err_inover</obj_property>
+      <obj_property name="ObjectShortName">err_inover</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/XLXI_FiMuxVhd/err_read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">err_read</obj_property>
+      <obj_property name="ObjectShortName">err_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/XLXI_FiMuxVhd/err_save" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">err_save</obj_property>
+      <obj_property name="ObjectShortName">err_save</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/EMPTY" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EMPTY[7:0]</obj_property>
+      <obj_property name="ObjectShortName">EMPTY[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_mux8_fifo_mux8_sch_tb/UUT/FULL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FULL[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FULL[7:0]</obj_property>
+   </wvobject>
+</wave_config>

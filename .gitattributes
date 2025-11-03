@@ -1,0 +1,22 @@
+# same 'core.autocrlf false' for sources. Will be ignore global and local setting of 'core.autocrlf'
+* -text
+
+# Rik: "* -text" not work. Nor is core filemode=false. Trying this to force all source to CRLF and scripts to LF...
+*.c text eol=crlf
+*.C text eol=crlf
+*.h text eol=crlf
+*.H text eol=crlf
+*.cpp text eol=crlf
+*.CPP text eol=crlf
+*.svg text eol=crlf
+*.vcxproj text eol=crlf
+*.sln text eol=crlf
+
+*.sh text eol=lf
+*.php text eol=lf
+GNUmakefile text eol=lf
+DEVELOPER text eol=lf
+LICENSE text eol=lf
+README.* text eol=lf
+Makefile.* text eol=lf
+

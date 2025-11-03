@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/SpiGpio_SpiGpio_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="spigpio_spigpio_sch_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/clken" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clken</obj_property>
+      <obj_property name="ObjectShortName">clken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/spi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spi</obj_property>
+      <obj_property name="ObjectShortName">spi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/spcsn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spcsn</obj_property>
+      <obj_property name="ObjectShortName">spcsn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/spck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spck</obj_property>
+      <obj_property name="ObjectShortName">spck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/spo" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spo</obj_property>
+      <obj_property name="ObjectShortName">spo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/t48m" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">t48m</obj_property>
+      <obj_property name="ObjectShortName">t48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/ten" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ten</obj_property>
+      <obj_property name="ObjectShortName">ten</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/UUT/XLXI_Spi3/BIT7" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">BIT7</obj_property>
+      <obj_property name="ObjectShortName">BIT7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/UUT/READ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">READ</obj_property>
+      <obj_property name="ObjectShortName">READ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/UUT/CYCLE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CYCLE</obj_property>
+      <obj_property name="ObjectShortName">CYCLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/UUT/PULLUPB" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PULLUPB</obj_property>
+      <obj_property name="ObjectShortName">PULLUPB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/UUT/VALA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">VALA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">VALA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/UUT/VALB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">VALB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">VALB[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spigpio_spigpio_sch_tb/UUT/VALC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">VALC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">VALC[7:0]</obj_property>
+   </wvobject>
+</wave_config>

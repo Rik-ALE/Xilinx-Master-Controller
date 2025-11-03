@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/OnePi_04_OnePi_04_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="onepi_04_onepi_04_sch_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/clkin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/inp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inp[4:1]</obj_property>
+      <obj_property name="ObjectShortName">inp[4:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/codeloadn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">codeloadn</obj_property>
+      <obj_property name="ObjectShortName">codeloadn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/debugn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">debugn</obj_property>
+      <obj_property name="ObjectShortName">debugn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/mode34n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mode34n</obj_property>
+      <obj_property name="ObjectShortName">mode34n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/spisi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spisi</obj_property>
+      <obj_property name="ObjectShortName">spisi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/vhen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vhen</obj_property>
+      <obj_property name="ObjectShortName">vhen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/spick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spick</obj_property>
+      <obj_property name="ObjectShortName">spick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/spics" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spics</obj_property>
+      <obj_property name="ObjectShortName">spics</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/buzzn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">buzzn</obj_property>
+      <obj_property name="ObjectShortName">buzzn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/spiso" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spiso</obj_property>
+      <obj_property name="ObjectShortName">spiso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/lda" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lda[8:1]</obj_property>
+      <obj_property name="ObjectShortName">lda[8:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/in_sp0_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_sp0_clk</obj_property>
+      <obj_property name="ObjectShortName">in_sp0_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/in_sp0_so" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_sp0_so</obj_property>
+      <obj_property name="ObjectShortName">in_sp0_so</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/in_sp0_cs0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_sp0_cs0</obj_property>
+      <obj_property name="ObjectShortName">in_sp0_cs0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/in_strobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_strobe</obj_property>
+      <obj_property name="ObjectShortName">in_strobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/in_wrnrd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_wrnrd</obj_property>
+      <obj_property name="ObjectShortName">in_wrnrd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/in_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/out_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/UUT/RSTn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RSTn</obj_property>
+      <obj_property name="ObjectShortName">RSTn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/UUT/SPI_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SPI_0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SPI_0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/UUT/SRSTn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRSTn</obj_property>
+      <obj_property name="ObjectShortName">SRSTn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/UUT/CODELOADn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CODELOADn</obj_property>
+      <obj_property name="ObjectShortName">CODELOADn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/UUT/DEBUGn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DEBUGn</obj_property>
+      <obj_property name="ObjectShortName">DEBUGn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/UUT/DEBUG" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DEBUG</obj_property>
+      <obj_property name="ObjectShortName">DEBUG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/UUT/TPHIO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TPHIO[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TPHIO[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/UUT/XLXI_Spi_Image/XLXI_ImgPiTop/MEMCLR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MEMCLR</obj_property>
+      <obj_property name="ObjectShortName">MEMCLR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/UUT/XLXI_Spi_Image/XLXI_ImgPiTop/MEMRDn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MEMRDn</obj_property>
+      <obj_property name="ObjectShortName">MEMRDn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/onepi_04_onepi_04_sch_tb/UUT/XLXI_Spi_Image/XLXI_ImgPiTop/MEMA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEMA[24:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMA[24:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/user/mnt/Xilnx/MS01/Controller/PrintLog_NRZ_PrintLog_NRZ_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="printlog_nrz_printlog_nrz_sch_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/clk144m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk144m</obj_property>
+      <obj_property name="ObjectShortName">clk144m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/rx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rx[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/hdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/hdata_en" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hdata_en[1:0]</obj_property>
+      <obj_property name="ObjectShortName">hdata_en[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/rtfire" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rtfire[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rtfire[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/UUT/XLXI_SERIN_0/SIN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SIN</obj_property>
+      <obj_property name="ObjectShortName">SIN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/UUT/XLXI_SERIN_0/ISDATA" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ISDATA</obj_property>
+      <obj_property name="ObjectShortName">ISDATA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/UUT/XLXI_SERIN_0/LATCHBIT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LATCHBIT</obj_property>
+      <obj_property name="ObjectShortName">LATCHBIT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/UUT/XLXI_SERIN_0/SYNC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SYNC</obj_property>
+      <obj_property name="ObjectShortName">SYNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/UUT/XLXI_SERIN_0/EDGE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EDGE</obj_property>
+      <obj_property name="ObjectShortName">EDGE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/UUT/XLXI_SERIN_0/EQ00001" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EQ00001</obj_property>
+      <obj_property name="ObjectShortName">EQ00001</obj_property>
+   </wvobject>
+   <wvobject fp_name="/printlog_nrz_printlog_nrz_sch_tb/UUT/XLXI_SERIN_0/EDGE150" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EDGE150</obj_property>
+      <obj_property name="ObjectShortName">EDGE150</obj_property>
+   </wvobject>
+</wave_config>

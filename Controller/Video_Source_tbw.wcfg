@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/Video_Source_Video_Source_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="video_source_video_source_sch_tb" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/video_source_video_source_sch_tb/rst_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_in</obj_property>
+      <obj_property name="ObjectShortName">rst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/clk_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/de_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">de_in</obj_property>
+      <obj_property name="ObjectShortName">de_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/vsync_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vsync_in</obj_property>
+      <obj_property name="ObjectShortName">vsync_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/hsync_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hsync_in</obj_property>
+      <obj_property name="ObjectShortName">hsync_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sel</obj_property>
+      <obj_property name="ObjectShortName">sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/rst_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_out</obj_property>
+      <obj_property name="ObjectShortName">rst_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/de_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">de_out</obj_property>
+      <obj_property name="ObjectShortName">de_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/vsync_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vsync_out</obj_property>
+      <obj_property name="ObjectShortName">vsync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/hsync_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hsync_out</obj_property>
+      <obj_property name="ObjectShortName">hsync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/tclk" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">tclk</obj_property>
+      <obj_property name="ObjectShortName">tclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/UUT/XLXI_VS2/frame_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">frame_state</obj_property>
+      <obj_property name="ObjectShortName">frame_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/UUT/XLXI_VS2/dotnum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dotnum[9:0]</obj_property>
+      <obj_property name="ObjectShortName">dotnum[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/UUT/XLXI_VS2/rownum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rownum[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rownum[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/video_source_video_source_sch_tb/UUT/DATAEN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DATAEN</obj_property>
+      <obj_property name="ObjectShortName">DATAEN</obj_property>
+   </wvobject>
+</wave_config>

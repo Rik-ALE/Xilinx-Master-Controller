@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/user/mnt/Xilnx/MS01/Controller/DataIp_DataIp_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="dataip_dataip_sch_tb" />
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/dataip_dataip_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataip_dataip_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataip_dataip_sch_tb/clktimeout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clktimeout</obj_property>
+      <obj_property name="ObjectShortName">clktimeout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataip_dataip_sch_tb/rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataip_dataip_sch_tb/UUT/XLXI_SerIn/LATCHBIT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LATCHBIT</obj_property>
+      <obj_property name="ObjectShortName">LATCHBIT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataip_dataip_sch_tb/regsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regsel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">regsel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataip_dataip_sch_tb/reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataip_dataip_sch_tb/rs232in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs232in</obj_property>
+      <obj_property name="ObjectShortName">rs232in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataip_dataip_sch_tb/UUT/SYNCi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SYNCi</obj_property>
+      <obj_property name="ObjectShortName">SYNCi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataip_dataip_sch_tb/UUT/SYNC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SYNC</obj_property>
+      <obj_property name="ObjectShortName">SYNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataip_dataip_sch_tb/UUT/DINCLK_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DINCLK_EN</obj_property>
+      <obj_property name="ObjectShortName">DINCLK_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataip_dataip_sch_tb/UUT/DIN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DIN[4:0]</obj_property>
+      <obj_property name="ObjectShortName">DIN[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataip_dataip_sch_tb/UUT/XLXI_RegIn/Ai" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Ai[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Ai[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataip_dataip_sch_tb/UUT/XLXI_RegIn/TPRD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TPRD[3:0]</obj_property>
+      <obj_property name="ObjectShortName">TPRD[3:0]</obj_property>
+   </wvobject>
+</wave_config>

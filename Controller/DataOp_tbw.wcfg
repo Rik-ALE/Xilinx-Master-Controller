@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/user/mnt/Xilnx/MS01/Controller/DataOp_DataOp_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="dataop_dataop_sch_tb" />
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/dataop_dataop_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/invert" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">invert</obj_property>
+      <obj_property name="ObjectShortName">invert</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/imgclk_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">imgclk_en</obj_property>
+      <obj_property name="ObjectShortName">imgclk_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/sck_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sck_en</obj_property>
+      <obj_property name="ObjectShortName">sck_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/idle" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">idle</obj_property>
+      <obj_property name="ObjectShortName">idle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/esc_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">esc_reg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">esc_reg[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/regout_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regout_en</obj_property>
+      <obj_property name="ObjectShortName">regout_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/rtfire_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rtfire_en</obj_property>
+      <obj_property name="ObjectShortName">rtfire_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/dnrz" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dnrz</obj_property>
+      <obj_property name="ObjectShortName">dnrz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/dnrz_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dnrz_en</obj_property>
+      <obj_property name="ObjectShortName">dnrz_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/d_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">d_en</obj_property>
+      <obj_property name="ObjectShortName">d_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/sd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sd</obj_property>
+      <obj_property name="ObjectShortName">sd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop_dataop_sch_tb/sd_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sd_clk</obj_property>
+      <obj_property name="ObjectShortName">sd_clk</obj_property>
+   </wvobject>
+</wave_config>

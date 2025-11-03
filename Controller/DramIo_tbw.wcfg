@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/DramIo_DramIo_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="dramio_dramio_sch_tb" />
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/dramio_dramio_sch_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/lbclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lbclk</obj_property>
+      <obj_property name="ObjectShortName">lbclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/rasgo" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rasgo[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rasgo[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/raspnta" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">raspnta[9:0]</obj_property>
+      <obj_property name="ObjectShortName">raspnta[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/raspntb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">raspntb[9:0]</obj_property>
+      <obj_property name="ObjectShortName">raspntb[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/drdone" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">drdone</obj_property>
+      <obj_property name="ObjectShortName">drdone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/mrdn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mrdn</obj_property>
+      <obj_property name="ObjectShortName">mrdn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/ma" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ma[18:0]</obj_property>
+      <obj_property name="ObjectShortName">ma[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/UUT/MA_BY" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MA_BY[5:0]</obj_property>
+      <obj_property name="ObjectShortName">MA_BY[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/mdin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mdin[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mdin[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/holdreq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">holdreq</obj_property>
+      <obj_property name="ObjectShortName">holdreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/lbrd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lbrd</obj_property>
+      <obj_property name="ObjectShortName">lbrd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/lbwr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lbwr</obj_property>
+      <obj_property name="ObjectShortName">lbwr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/lbdin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lbdin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">lbdin[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/drrdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">drrdy</obj_property>
+      <obj_property name="ObjectShortName">drrdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/lba[11]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[11]</obj_property>
+      <obj_property name="ObjectShortName">lba[11]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/lba" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lba[19:0]</obj_property>
+      <obj_property name="ObjectShortName">lba[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/UUT/XLXI_Dram_Seq/errclrread" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">errclrread</obj_property>
+      <obj_property name="ObjectShortName">errclrread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/lbdout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lbdout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">lbdout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/UUT/XLXI_Dram_Seq/headrd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">headrd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">headrd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/UUT/DR_AD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DR_AD[18:0]</obj_property>
+      <obj_property name="ObjectShortName">DR_AD[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/UUT/HCONF16X8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HCONF16X8[127:0]</obj_property>
+      <obj_property name="ObjectShortName">HCONF16X8[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/UUT/XLXI_Dram_Seq/rasoff" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rasoff[0:7]</obj_property>
+      <obj_property name="ObjectShortName">rasoff[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/UUT/RD504" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RD504</obj_property>
+      <obj_property name="ObjectShortName">RD504</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/UUT/XLXI_Dram_Seq/clr504" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clr504</obj_property>
+      <obj_property name="ObjectShortName">clr504</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/UUT/XLXI_Dram_Seq/off120" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">off120[0:7]</obj_property>
+      <obj_property name="ObjectShortName">off120[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/UUT/INVERT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INVERT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">INVERT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/UUT/IS240" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IS240[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IS240[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/UUT/IS504" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IS504[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IS504[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dramio_dramio_sch_tb/UUT/XLXI_Dram_Seq/tp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tp[7:0]</obj_property>
+   </wvobject>
+</wave_config>

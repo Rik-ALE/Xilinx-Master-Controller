@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="M:/MZ_7010_Basic_System/MZ_Basic_System.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="11">
+	</WVObjectSize>
+	<wvobject fp_name="soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_active_video" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_active_video</obj_property>
+		<obj_property name="ObjectShortName">soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_active_video</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_hblank" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_hblank</obj_property>
+		<obj_property name="ObjectShortName">soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_hblank</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_hsync" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_hsync</obj_property>
+		<obj_property name="ObjectShortName">soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_hsync</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_vblank" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_vblank</obj_property>
+		<obj_property name="ObjectShortName">soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_vblank</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_vsync" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_vsync</obj_property>
+		<obj_property name="ObjectShortName">soc_core_wrapper_i/soc_core_i/vtiming_gen_0/vtg_vsync</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_core_wrapper_i/soc_core_i/vpattern_gen_0/active_video_in" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_core_wrapper_i/soc_core_i/vpattern_gen_0/active_video_in</obj_property>
+		<obj_property name="ObjectShortName">soc_core_wrapper_i/soc_core_i/vpattern_gen_0/active_video_in</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_core_wrapper_i/soc_core_i/vpattern_gen_0/active_video_out" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_core_wrapper_i/soc_core_i/vpattern_gen_0/active_video_out</obj_property>
+		<obj_property name="ObjectShortName">soc_core_wrapper_i/soc_core_i/vpattern_gen_0/active_video_out</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_core_wrapper_i/soc_core_i/vpattern_gen_0/hsync_in" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_core_wrapper_i/soc_core_i/vpattern_gen_0/hsync_in</obj_property>
+		<obj_property name="ObjectShortName">soc_core_wrapper_i/soc_core_i/vpattern_gen_0/hsync_in</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_core_wrapper_i/soc_core_i/vpattern_gen_0/hsync_out" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_core_wrapper_i/soc_core_i/vpattern_gen_0/hsync_out</obj_property>
+		<obj_property name="ObjectShortName">soc_core_wrapper_i/soc_core_i/vpattern_gen_0/hsync_out</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_core_wrapper_i/soc_core_i/vpattern_gen_0/vsync_in" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_core_wrapper_i/soc_core_i/vpattern_gen_0/vsync_in</obj_property>
+		<obj_property name="ObjectShortName">soc_core_wrapper_i/soc_core_i/vpattern_gen_0/vsync_in</obj_property>
+	</wvobject>
+	<wvobject fp_name="soc_core_wrapper_i/soc_core_i/vpattern_gen_0/vsync_out" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">soc_core_wrapper_i/soc_core_i/vpattern_gen_0/vsync_out</obj_property>
+		<obj_property name="ObjectShortName">soc_core_wrapper_i/soc_core_i/vpattern_gen_0/vsync_out</obj_property>
+	</wvobject>
+</wave_config>
+

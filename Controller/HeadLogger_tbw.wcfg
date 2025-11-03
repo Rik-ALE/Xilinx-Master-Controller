@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/user/mnt/Xilnx/MS01/Controller/HeadLogger_HeadLogger_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="headlogger_headlogger_sch_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/clk144m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk144m</obj_property>
+      <obj_property name="ObjectShortName">clk144m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/en16m" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">en16m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">en16m[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/din" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">din</obj_property>
+      <obj_property name="ObjectShortName">din</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/sck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/fire" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fire</obj_property>
+      <obj_property name="ObjectShortName">fire</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/UUT/HD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">HD</obj_property>
+      <obj_property name="ObjectShortName">HD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/UUT/HSCK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">HSCK</obj_property>
+      <obj_property name="ObjectShortName">HSCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/UUT/PSCK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PSCK</obj_property>
+      <obj_property name="ObjectShortName">PSCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/UUT/HFIRE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">HFIRE</obj_property>
+      <obj_property name="ObjectShortName">HFIRE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/UUT/PFIRE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PFIRE</obj_property>
+      <obj_property name="ObjectShortName">PFIRE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/invs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">invs[2:0]</obj_property>
+      <obj_property name="ObjectShortName">invs[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/rd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd</obj_property>
+      <obj_property name="ObjectShortName">rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/firerise" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">firerise</obj_property>
+      <obj_property name="ObjectShortName">firerise</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/nrz_mode" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nrz_mode</obj_property>
+      <obj_property name="ObjectShortName">nrz_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/fonce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fonce</obj_property>
+      <obj_property name="ObjectShortName">fonce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/hsck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hsck</obj_property>
+      <obj_property name="ObjectShortName">hsck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/tp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tp[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/fire_pos" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fire_pos</obj_property>
+      <obj_property name="ObjectShortName">fire_pos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/sck_pos" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sck_pos</obj_property>
+      <obj_property name="ObjectShortName">sck_pos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/headlogger_headlogger_sch_tb/rxsim" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxsim</obj_property>
+      <obj_property name="ObjectShortName">rxsim</obj_property>
+   </wvobject>
+</wave_config>

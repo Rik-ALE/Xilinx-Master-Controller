@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/SPI_Image_One_SPI_Image_One_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="spi_image_one_spi_image_one_sch_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/clkcore" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkcore</obj_property>
+      <obj_property name="ObjectShortName">clkcore</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/clkfast" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkfast</obj_property>
+      <obj_property name="ObjectShortName">clkfast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/in_sp0_cs0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_sp0_cs0</obj_property>
+      <obj_property name="ObjectShortName">in_sp0_cs0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/in_sp0_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_sp0_clk</obj_property>
+      <obj_property name="ObjectShortName">in_sp0_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/in_sp0_so" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_sp0_so</obj_property>
+      <obj_property name="ObjectShortName">in_sp0_so</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/spisigs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">spisigs[2:0]</obj_property>
+      <obj_property name="ObjectShortName">spisigs[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/RDA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RDA[13:0]</obj_property>
+      <obj_property name="ObjectShortName">RDA[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/ramrdn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ramrdn</obj_property>
+      <obj_property name="ObjectShortName">ramrdn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/ramclrn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ramclrn</obj_property>
+      <obj_property name="ObjectShortName">ramclrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/mema" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mema[18:0]</obj_property>
+      <obj_property name="ObjectShortName">mema[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/mdin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mdin[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mdin[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/wrote_img_byte" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wrote_img_byte</obj_property>
+      <obj_property name="ObjectShortName">wrote_img_byte</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/img_rasnum" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">img_rasnum</obj_property>
+      <obj_property name="ObjectShortName">img_rasnum</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/img_addrout" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">img_addrout</obj_property>
+      <obj_property name="ObjectShortName">img_addrout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/DIN_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DIN_EN</obj_property>
+      <obj_property name="ObjectShortName">DIN_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/DIN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DIN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/SPDIN0_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SPDIN0_EN</obj_property>
+      <obj_property name="ObjectShortName">SPDIN0_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/SPDIN0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SPDIN0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SPDIN0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/RAMDO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMDO[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAMDO[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/TRAMRD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TRAMRD</obj_property>
+      <obj_property name="ObjectShortName">TRAMRD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/RAMWR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMWR</obj_property>
+      <obj_property name="ObjectShortName">RAMWR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/FF_RAMWR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">FF_RAMWR</obj_property>
+      <obj_property name="ObjectShortName">FF_RAMWR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/HIT_RAMWR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">HIT_RAMWR</obj_property>
+      <obj_property name="ObjectShortName">HIT_RAMWR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/FF_MDIN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">FF_MDIN</obj_property>
+      <obj_property name="ObjectShortName">FF_MDIN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/HIT_MDIN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">HIT_MDIN</obj_property>
+      <obj_property name="ObjectShortName">HIT_MDIN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/RAMDO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMDO[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAMDO[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/RAMA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RAMA[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/RAMWR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMWR</obj_property>
+      <obj_property name="ObjectShortName">RAMWR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/RAMWRx2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMWRx2</obj_property>
+      <obj_property name="ObjectShortName">RAMWRx2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/RAMCLRP1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMCLRP1</obj_property>
+      <obj_property name="ObjectShortName">RAMCLRP1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/WCRASH" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WCRASH</obj_property>
+      <obj_property name="ObjectShortName">WCRASH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_image_one_spi_image_one_sch_tb/UUT/TCRASH" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TCRASH</obj_property>
+      <obj_property name="ObjectShortName">TCRASH</obj_property>
+   </wvobject>
+</wave_config>

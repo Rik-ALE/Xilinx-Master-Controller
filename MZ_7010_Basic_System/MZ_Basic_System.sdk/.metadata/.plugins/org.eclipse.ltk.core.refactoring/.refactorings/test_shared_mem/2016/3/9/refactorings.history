@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;test_shared_mem/src/helloworld.c&apos; to &apos;testsharedmem.c&apos;" description="Rename resource &apos;helloworld.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/helloworld.c" name="testsharedmem.c" stamp="1456911258274" updateReferences="true"/>
+</session>

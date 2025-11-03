@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/Engine_Engine_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="engine_engine_sch_tb" />
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/engine_engine_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/en16m" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">en16m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">en16m[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/holda" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">holda</obj_property>
+      <obj_property name="ObjectShortName">holda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/rasgoa" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rasgoa</obj_property>
+      <obj_property name="ObjectShortName">rasgoa</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/rasgob" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rasgob</obj_property>
+      <obj_property name="ObjectShortName">rasgob</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/tickle" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tickle[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tickle[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/ttzmode" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ttzmode</obj_property>
+      <obj_property name="ObjectShortName">ttzmode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/rasen" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rasen[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rasen[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/hd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/hdm1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hdm1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hdm1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/rasgo_en" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rasgo_en[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rasgo_en[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/dotcnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dotcnt[8:0]</obj_property>
+      <obj_property name="ObjectShortName">dotcnt[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/raspnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">raspnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">raspnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/sck_en" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sck_en[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sck_en[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/fire_en" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fire_en[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fire_en[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/UUT/XLXI_SpitTick/FIRE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FIRE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">FIRE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/UUT/XLXI_SpitTick/FIREOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FIREOUT[1:0]</obj_property>
+      <obj_property name="ObjectShortName">FIREOUT[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/UUT/TICKLE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TICKLE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">TICKLE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/UUT/TICKRUN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TICKRUN</obj_property>
+      <obj_property name="ObjectShortName">TICKRUN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/UUT/TICK976_122" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TICK976_122</obj_property>
+      <obj_property name="ObjectShortName">TICK976_122</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/UUT/XLXI_SpitTick/TICKSCK_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TICKSCK_EN</obj_property>
+      <obj_property name="ObjectShortName">TICKSCK_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/UUT/XLXI_SpitTick/RUNEN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RUNEN</obj_property>
+      <obj_property name="ObjectShortName">RUNEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/UUT/XLXI_SpitTick/RUNEN2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RUNEN2</obj_property>
+      <obj_property name="ObjectShortName">RUNEN2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/UUT/XLXI_SpitTick/TICKFIRE_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TICKFIRE_EN</obj_property>
+      <obj_property name="ObjectShortName">TICKFIRE_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/engine_engine_sch_tb/UUT/XLXI_SpitTick/FIREBLOCK" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FIREBLOCK[1:0]</obj_property>
+      <obj_property name="ObjectShortName">FIREBLOCK[1:0]</obj_property>
+   </wvobject>
+</wave_config>

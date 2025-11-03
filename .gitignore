@@ -1,0 +1,36 @@
+# See: "!How To (Master).txt" -> Copy / clean a project
+
+#- Only these needed ij Controller/:
+#    *.sch *.sh *.sym *.uch *.vhd *.wcfg *.xise
+
+**/Thumbs.db
+**/_ngo/
+**/_xmsgs/
+**/iseconfig/
+**/isim/
+**/.vxlnx_auto_0_xdbs/
+**/xst/
+**/MZ_Basic_System.cache/
+**/MZ_Basic_System.runs/
+
+Controller/*.gise
+Controller/*.html
+Controller/*.jhd
+Controller/*.projectmgr
+Controller/*.schlog
+Controller/*.schcmd
+Controller/*.schbak
+Controller/*.spl
+Controller/*.stx
+Controller/*.syr
+Controller/*.unroutes
+Controller/*.ut
+Controller/*.vf
+Controller/*.xml
+Controller/*.xpi
+Controller/*.xrpt
+Controller/*.xst
+Controller/*.xdl
+Controller/*.xwbt
+Controller/*.wdb
+Controller/*.xmsgs

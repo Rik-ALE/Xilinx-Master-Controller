@@ -1,0 +1,172 @@
+###############################################################################
+## UG381: "LVDS outputs are only available on I/O banks 0 and 2."
+##
+## Bank 0:	P111 – P144
+## Bank 1:	P74 – P105
+## Bank 2:	P37 – P70
+## Bank 3:	P1 – P35
+##
+###############################################################################
+##
+## set LVDS IOSTANDARD to 3v3 as defaults to LVDS_25
+## Diff paires marked **inverted** need signal inversion in the FPGA as N/P wires swapped on PCB
+##
+## GO means GPIO o/p to Pi
+## GI means GPIO i/p from Pi
+###############################################################################
+
+CONFIG VCCAUX = "3.3";
+
+NET "*" IOSTANDARD = LVCMOS33;	# set the default I/O standard
+
+###############################################################################
+## Bank 3:	P1 – P35
+
+NET "TXHD<0>"		LOC = "P1"   ;
+NET "TXHD<1>"		LOC = "P2"   ;
+# P3=GND, P4=VCCO
+NET "TXHD<2>"		LOC = "P5"   ;
+NET "TXHD<3>"		LOC = "P6"   ;
+NET "RXHD<0>"		LOC = "P7"   ;
+NET "RXHD<1>"		LOC = "P8"   ;
+NET "RXHD<2>"		LOC = "P9"   ;
+NET "RXHD<3>"		LOC = "P10"  ;
+NET "TXHD<4>"		LOC = "P11"  ;
+NET "TXHD<5>"		LOC = "P12"  ;
+# P13=GND
+NET "RXHD<4>"		LOC = "P14"  ;
+NET "TXHD<6>"		LOC = "P15"  ;
+NET "TXHD<7>"		LOC = "P16"  ;
+NET "RXHD<5>"		LOC = "P17"  ;
+# P18=VCCO, P19=VCCINT, P20=VCCAUX
+NET "RXHD<6>"		LOC = "P21"  ;	# input only
+NET "RXHD<7>"		LOC = "P22"  ;	# i/p only
+# P23=NC (input only)
+NET "CLKIN"			LOC = "P24"  ;
+# P25=GND, P26-27=NC, P28=VCCINT, P29-30=NC
+# P31=VCCO, P32=NC
+NET "TP33"			LOC = "P33"  ;
+NET "CODELOADn"		LOC = "P34"  ;
+NET "ALARM"			LOC = "P35"  ;	# Relay
+# P36=VCCAUX
+
+###############################################################################
+## Bank 2:	P37 – P70
+
+# P37=PROG_B
+NET "SPICS"			LOC = "P38"  ;	# CS0 during boot
+# P39=NC (INIT_B)
+NET "READY"			LOC = "P40"  ;	# Relay
+NET "SPOUT"			LOC = "P41"  ;	# Relay
+# P42=VCCO
+NET "SPIN<1>"		LOC = "P43"  ;
+NET "SPIN<3>"		LOC = "P44"  ;
+NET "SPIN<2>"		LOC = "P45"  ;
+NET "PEC<2>"		LOC = "P46"  ;
+NET "RS232TXn"		LOC = "P47"  ;
+NET "RS232RXn"		LOC = "P48"  ;
+# P49=GND
+NET "PEC<1>"		LOC = "P50"  ;
+NET "SPIN<4>"		LOC = "P51"  ;
+# P52=VCCINT, P53=VCCAUX, P54=GND, P55=NC
+NET "SENC<1>"		LOC = "P56"  ;
+NET "SENC<2>"		LOC = "P57"  ;
+NET "SENC<3>"		LOC = "P58"  ;
+NET "SENC<4>"		LOC = "P59"  ;
+# P60=MODE1 (LOW)
+NET "BUZZn"			LOC = "P61"  ;	# M0 i/p during boot (high)
+NET "PON"			LOC = "P62"  ;
+# P63=VCCO
+NET "SPISO"			LOC = "P64"  ;	# MOSI o/p during boot
+NET "SPISI"			LOC = "P65"  ;	# SPI DIN during boot
+NET "LEDRED"		LOC = "P66"  ;
+# P67=NC, P68=GND
+NET "TP69"			LOC = "P69"  ;  # MODE0 (high at boot)
+NET "SPICK"			LOC = "P70"  ;  # CCLK = only used for EEPROM update from hello.ax
+# P71=DONE=TP?, 72=CMPCSB, 73=SUSPEND
+
+
+###############################################################################
+## Bank 1:	P74 – P105
+
+NET "POWERSW"		LOC = "P74"  ;
+NET "KEYROW<1>"		LOC = "P75"  ;	# keypad o/p
+# P76=VCCO, P77=GND
+NET "KEYROW<0>"		LOC = "P78"  ;	# keypad o/p
+NET "KEYCOL<4>"		LOC = "P79"  ;	# keypad i/p
+NET "KEYCOL<3>"		LOC = "P80"  ;	# keypad i/p
+NET "KEYCOL<2>"		LOC = "P81"  ;	# keypad i/p
+NET "KEYCOL<1>"		LOC = "P82"  ;	# keypad i/p
+NET "KEYCOL<0>"		LOC = "P83"  ;	# keypad i/p
+# P84=NC (input only)
+NET "KEYLED<1>"		LOC = "P85"  ;	# Mapped to ALARM
+# P86=VCCO
+NET "OPTIONn"		LOC = "P87"  ;	# (input only)
+NET "KEYLED<0>"		LOC = "P88"  ;	# Mapped to Ready
+# P89=VCCINT, P90=VCCAUX, P91=GND
+NET "DEBUGn"		LOC = "P92"  ;
+NET "LED<1>"		LOC = "P93"  ;
+NET "LED<0>"		LOC = "P94"  ;
+NET "TP<7>"			LOC = "P95"  ;	# QSPI option: CSRAM
+# P96=GND
+NET "TP<6>"			LOC = "P97"  ;	# QSPI option: SPID3
+NET "TP<5>"			LOC = "P98"  ;	# QSPI option: SPID1
+NET "TP<4>"			LOC = "P99"  ;	# QSPI option: SPCLK
+NET "TP<3>"			LOC = "P100" ;	# QSPI option: SPID2
+NET "TP<2>"			LOC = "P101" ;	# QSPI option: SPID0
+NET "TP<1>"			LOC = "P102" ;
+# P103=VCCO
+NET "TP<0>"			LOC = "P104"  ;
+NET "GO4"			LOC = "P105"  ;	# RegDin0 to Pi
+# P106=TDO, P107=TMS, P108=GND, P109=TCK, P110=TDI
+
+
+###############################################################################
+## Bank 0:	P111 – P144
+
+NET "GO17"			LOC = "P111"  ;	# RegDin5 to Pi
+NET "GO18"			LOC = "P112"  ;	# RegDin6 to Pi
+# P113=GND
+NET "GI27"			LOC = "P114"  ;	# RegDout7 from Pi
+NET "GI22"			LOC = "P115"  ;	# RegDout2 from Pi
+NET "GI23"			LOC = "P116"  ;	# RegDout3 from Pi
+NET "GI24"			LOC = "P117"  ;	# RegDout4 from Pi. i/p only
+NET "GI10"			LOC = "P118"  ;	# SPI0-SI from Pi
+NET "GO9"			LOC = "P119"  ;	# IRQ to Pi
+NET "GI25"			LOC = "P120"  ;	# RegDout5 from Pi
+# P121=NC, P122=VCCO
+NET "GI11"			LOC = "P123"  ; # SPI0-CLK from Pi (goes to GCLK)(input only)
+NET "GI8"			LOC = "P124"  ; 	# SPI0-CS0 from Pi
+# P125=VCCO, P126=NC (input only)
+NET "GO7"			LOC = "P127"  ;	# RegDin3 to Pi
+# P128=VCCINT, P129=VCCAUX, P130=GND, P131=NC (input only)
+NET "GO5"			LOC = "P132"  ;	# RegDin1 to Pi
+# P133=NC (input only)
+NET "GO6"			LOC = "P134"  ;	# RegDin2 to Pi. i/p only
+# P135=VCCO, P136=GND
+NET "GI12"			LOC = "P137"  ;	# RegStrobe from Pi. i/p only
+NET "GI13"			LOC = "P138"  ;	# RegRdWr from Pi
+NET "GO19"			LOC = "P139"  ;	# RegDin7 to Pi
+NET "GO16"			LOC = "P140"  ;	# RegDin4 to Pi
+NET "GI26"			LOC = "P141"  ;	# RegDout6 from Pi
+NET "GI20"			LOC = "P142"  ;	# RegDout0 from Pi
+NET "GI21"			LOC = "P143"  ;	# RegDout1 from Pi
+# P144=HWSAP (GND)
+
+
+##########################################################
+# Timing constraints - defined the fastest clocks to 
+# ensure dependent devices conform.
+##########################################################
+
+NET "CLKCORE" TNM_NET = "clkcore_net";
+TIMESPEC "TS_clkcore_net" = PERIOD "clkcore_net" 48 MHz ;
+
+NET "CLKFAST" TNM_NET = "clkfast_net";
+TIMESPEC "TS_clkfast_net" = PERIOD "clkfast_net" 96 MHz ;
+
+NET "CLK144M" TNM_NET = "clk144m_net";
+TIMESPEC "TS_clk144m_net" = PERIOD "clk144m_net" 144 MHz ;
+
+
+

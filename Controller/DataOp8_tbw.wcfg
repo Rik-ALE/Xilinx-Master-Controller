@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/user/mnt/Xilnx/MS01/Controller/DataOp8_DataOp8_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="dataop8_dataop8_sch_tb" />
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/sck_en" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sck_en[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sck_en[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/headsm1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">headsm1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">headsm1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/fire_en" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fire_en[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fire_en[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/d0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/d0_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">d0_en</obj_property>
+      <obj_property name="ObjectShortName">d0_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/XLXI_DataOp0/REGOUT_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">REGOUT_EN</obj_property>
+      <obj_property name="ObjectShortName">REGOUT_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/XLXI_DataOp0/RTFIRE_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RTFIRE_EN</obj_property>
+      <obj_property name="ObjectShortName">RTFIRE_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/XLXI_RegSeq/EN0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN0</obj_property>
+      <obj_property name="ObjectShortName">EN0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/TX" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TX[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TX[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/TXx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TXx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TXx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/XLXI_DataOp0/DNRZ_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DNRZ_EN</obj_property>
+      <obj_property name="ObjectShortName">DNRZ_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/DUBSPEED" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DUBSPEED</obj_property>
+      <obj_property name="ObjectShortName">DUBSPEED</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/XLXI_DataOp0/XLXI_DoutMerge/REGOUT_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">REGOUT_EN</obj_property>
+      <obj_property name="ObjectShortName">REGOUT_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/XLXI_DataOp0/XLXI_DoutMerge/ESCOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ESCOUT[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ESCOUT[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/XLXI_DataOp0/XLXI_DoutMerge/REGOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">REGOUT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">REGOUT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/XLXI_DataOp1/XLXI_DoutMerge/REGOUT_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">REGOUT_EN</obj_property>
+      <obj_property name="ObjectShortName">REGOUT_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/XLXI_DataOp1/XLXI_DoutMerge/ESCOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ESCOUT[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ESCOUT[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/XLXI_DataOp1/XLXI_DoutMerge/REGOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">REGOUT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">REGOUT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/XLXI_RegSeq/EVEN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EVEN</obj_property>
+      <obj_property name="ObjectShortName">EVEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/XLXI_RegSeq/REGS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">REGS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">REGS[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dataop8_dataop8_sch_tb/UUT/XLXI_RegSeq/HDSEL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HDSEL[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HDSEL[2:0]</obj_property>
+   </wvobject>
+</wave_config>

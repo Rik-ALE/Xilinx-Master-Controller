@@ -1,0 +1,6 @@
+16:10:38 **** Incremental Build of configuration Debug for project test_shared_mem ****
+make all 
+make: Rien à faire pour « all ».
+
+16:10:38 Build Finished (took 136ms)
+

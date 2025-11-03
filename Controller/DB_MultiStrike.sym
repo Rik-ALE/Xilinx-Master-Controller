@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="DB_MultiStrike">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2022-1-13T10:16:10</timestamp>
+    <pin polarity="Input" x="0" y="-160" name="ABCMODE" />
+    <pin polarity="Input" x="0" y="-416" name="CLK50M" />
+    <pin polarity="Output" x="448" y="-416" name="FIREABC(8:0)" />
+    <pin polarity="Output" x="448" y="-352" name="FIREANY" />
+    <pin polarity="Input" x="0" y="-352" name="FIREIN" />
+    <pin polarity="Output" x="448" y="-480" name="FIREOUT" />
+    <pin polarity="Input" x="0" y="-224" name="NOWHITEFIRE" />
+    <pin polarity="Input" x="0" y="-32" name="PL35" />
+    <pin polarity="Input" x="0" y="-480" name="RSTn" />
+    <pin polarity="Output" x="448" y="-224" name="TP(5:0)" />
+    <pin polarity="Input" x="0" y="-288" name="VH" />
+    <pin polarity="Output" x="448" y="-288" name="XHITS(1:0)" />
+    <pin polarity="Input" x="0" y="-96" name="XTRAHITS(1:0)" />
+    <graph>
+        <rect width="320" x="64" y="-512" height="512" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="224" y="-520" type="symbol" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin ABCMODE" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin CLK50M" />
+        <line x2="448" y1="-416" y2="-416" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-416" type="pin FIREABC(8:0)" />
+        <rect width="64" x="384" y="-428" height="24" />
+        <line x2="448" y1="-352" y2="-352" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-352" type="pin FIREANY" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin FIREIN" />
+        <line x2="448" y1="-480" y2="-480" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-480" type="pin FIREOUT" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin NOWHITEFIRE" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin PL35" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin RSTn" />
+        <line x2="448" y1="-224" y2="-224" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-224" type="pin TP(5:0)" />
+        <rect width="64" x="384" y="-236" height="24" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin VH" />
+        <line x2="448" y1="-288" y2="-288" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-288" type="pin XHITS(1:0)" />
+        <rect width="64" x="384" y="-300" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin XTRAHITS(1:0)" />
+        <rect width="64" x="0" y="-108" height="24" />
+    </graph>
+</symbol>

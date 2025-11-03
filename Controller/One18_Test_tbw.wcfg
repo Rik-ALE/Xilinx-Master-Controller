@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/One18_Test_One18_Test_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="one18_test_one18_test_sch_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="46" />
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/clkin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/clk144m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk144m</obj_property>
+      <obj_property name="ObjectShortName">clk144m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/softresetn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">softresetn</obj_property>
+      <obj_property name="ObjectShortName">softresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/SPICSn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SPICSn</obj_property>
+      <obj_property name="ObjectShortName">SPICSn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/SPICLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SPICLK</obj_property>
+      <obj_property name="ObjectShortName">SPICLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/SPISI" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SPISI</obj_property>
+      <obj_property name="ObjectShortName">SPISI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/rasgo" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rasgo[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rasgo[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/sck_en" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sck_en[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sck_en[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/hd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/invert" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">invert[7:0]</obj_property>
+      <obj_property name="ObjectShortName">invert[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/raspnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">raspnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">raspnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/mema" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mema[24:0]</obj_property>
+      <obj_property name="ObjectShortName">mema[24:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/fire" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fire[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fire[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/hdm1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hdm1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hdm1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/imgclrn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">imgclrn</obj_property>
+      <obj_property name="ObjectShortName">imgclrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/reg_headsize" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_headsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_headsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/reg_hdsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_hdsel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_hdsel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/reg_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_wr</obj_property>
+      <obj_property name="ObjectShortName">reg_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/LDA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LDA[8:1]</obj_property>
+      <obj_property name="ObjectShortName">LDA[8:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/MEMA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEMA[24:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMA[24:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/RAMRDn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMRDn</obj_property>
+      <obj_property name="ObjectShortName">RAMRDn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/RAMCLRn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMCLRn</obj_property>
+      <obj_property name="ObjectShortName">RAMCLRn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/XLXI_HeadIo/XLXI_HEADIO2/FIREIN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">FIREIN</obj_property>
+      <obj_property name="ObjectShortName">FIREIN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/XLXI_HeadIo/XLXI_HEADIO2/FFIRE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">FFIRE</obj_property>
+      <obj_property name="ObjectShortName">FFIRE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/XLXI_HeadIo/XLXI_HEADIO2/FIRE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">FIRE</obj_property>
+      <obj_property name="ObjectShortName">FIRE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/XLXI_HeadIo/XLXI_HEADIO2/XSIGS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">XSIGS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">XSIGS[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/XLXI_HeadIo/XLXI_HEADIO2/HSEL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HSEL[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HSEL[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/XLXI_HeadIo/XLXI_HEADIO2/HDATA_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">HDATA_EN</obj_property>
+      <obj_property name="ObjectShortName">HDATA_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/XLXI_HeadIo/XLXI_HEADIO2/HDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HDATA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">HDATA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/RAMB16x8_IMGRAM/DIN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DIN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/RAMB16x8_IMGRAM/DOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DOUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DOUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/RAMWR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMWR</obj_property>
+      <obj_property name="ObjectShortName">RAMWR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/RAMCLRP1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMCLRP1</obj_property>
+      <obj_property name="ObjectShortName">RAMCLRP1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/MDIN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MDIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MDIN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/IMGCLK_EN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IMGCLK_EN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IMGCLK_EN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/XLXI_DataOp8/XLXI_DataOp0/IMGCLK_EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IMGCLK_EN</obj_property>
+      <obj_property name="ObjectShortName">IMGCLK_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/RAMB16x8_IMGRAM/AIN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AIN[13:0]</obj_property>
+      <obj_property name="ObjectShortName">AIN[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/RAMB16x8_IMGRAM/AOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AOUT[13:0]</obj_property>
+      <obj_property name="ObjectShortName">AOUT[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/RAMB16x8_IMGRAM/WREN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WREN</obj_property>
+      <obj_property name="ObjectShortName">WREN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/RAMB16x8_IMGRAM/RDEN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RDEN</obj_property>
+      <obj_property name="ObjectShortName">RDEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/TCRASH" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TCRASH</obj_property>
+      <obj_property name="ObjectShortName">TCRASH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/RAMB16x8_IMGRAM/AO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AO[10:0]</obj_property>
+      <obj_property name="ObjectShortName">AO[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/RAMB16x8_IMGRAM/AI" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AI[10:0]</obj_property>
+      <obj_property name="ObjectShortName">AI[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/one18_test_one18_test_sch_tb/UUT/SpiImageOne/WCRASH" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WCRASH</obj_property>
+      <obj_property name="ObjectShortName">WCRASH</obj_property>
+   </wvobject>
+</wave_config>

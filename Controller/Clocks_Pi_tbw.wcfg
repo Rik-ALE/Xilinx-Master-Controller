@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/Clocks_Pi_Clocks_Pi_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="clocks_pi_clocks_pi_sch_tb" />
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/clocks_pi_clocks_pi_sch_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clocks_pi_clocks_pi_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clocks_pi_clocks_pi_sch_tb/clkcore" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkcore</obj_property>
+      <obj_property name="ObjectShortName">clkcore</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clocks_pi_clocks_pi_sch_tb/clkfast" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkfast</obj_property>
+      <obj_property name="ObjectShortName">clkfast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clocks_pi_clocks_pi_sch_tb/en16m" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">en16m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">en16m[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clocks_pi_clocks_pi_sch_tb/t" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">t</obj_property>
+      <obj_property name="ObjectShortName">t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clocks_pi_clocks_pi_sch_tb/UUT/CLK48M" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK48M</obj_property>
+      <obj_property name="ObjectShortName">CLK48M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clocks_pi_clocks_pi_sch_tb/UUT/LOCKED" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LOCKED</obj_property>
+      <obj_property name="ObjectShortName">LOCKED</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clocks_pi_clocks_pi_sch_tb/UUT/LOCKED48" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LOCKED48</obj_property>
+      <obj_property name="ObjectShortName">LOCKED48</obj_property>
+   </wvobject>
+</wave_config>

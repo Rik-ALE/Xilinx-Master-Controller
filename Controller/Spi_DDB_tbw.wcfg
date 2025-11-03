@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/Spi_DDB_Spi_DDB_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="spi_ddb_spi_ddb_sch_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/clk50m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk50m</obj_property>
+      <obj_property name="ObjectShortName">clk50m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/en10m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en10m</obj_property>
+      <obj_property name="ObjectShortName">en10m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/hsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hsel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">hsel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/vsel0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vsel0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">vsel0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/vsel1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vsel1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">vsel1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/tsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/vh" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vh</obj_property>
+      <obj_property name="ObjectShortName">vh</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/spisi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spisi</obj_property>
+      <obj_property name="ObjectShortName">spisi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/thm1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">thm1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">thm1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/thm0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">thm0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">thm0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/csthm" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">csthm[1:0]</obj_property>
+      <obj_property name="ObjectShortName">csthm[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/cspot" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cspot[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cspot[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/spiso" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spiso</obj_property>
+      <obj_property name="ObjectShortName">spiso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/spick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">spick</obj_property>
+      <obj_property name="ObjectShortName">spick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/vhen" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vhen[1:0]</obj_property>
+      <obj_property name="ObjectShortName">vhen[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/UUT/POT0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">POT0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">POT0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_ddb_spi_ddb_sch_tb/UUT/POT1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">POT1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">POT1[7:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/RS232_TOP_RS232_TOP_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="rs232_top_rs232_top_sch_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/div12" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">div12</obj_property>
+      <obj_property name="ObjectShortName">div12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/UUT/TCBAUDX4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TCBAUDX4</obj_property>
+      <obj_property name="ObjectShortName">TCBAUDX4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/UUT/TCBAUDX2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TCBAUDX2</obj_property>
+      <obj_property name="ObjectShortName">TCBAUDX2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/UUT/TCBASE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TCBASE</obj_property>
+      <obj_property name="ObjectShortName">TCBASE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/UUT/TCDIV12" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TCDIV12</obj_property>
+      <obj_property name="ObjectShortName">TCDIV12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/rts" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rts</obj_property>
+      <obj_property name="ObjectShortName">rts</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/tx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/tx_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_en</obj_property>
+      <obj_property name="ObjectShortName">tx_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/rxd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxd</obj_property>
+      <obj_property name="ObjectShortName">rxd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/rxreq_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxreq_en</obj_property>
+      <obj_property name="ObjectShortName">rxreq_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/div12" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">div12</obj_property>
+      <obj_property name="ObjectShortName">div12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/div" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">div[2:0]</obj_property>
+      <obj_property name="ObjectShortName">div[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/txd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txd</obj_property>
+      <obj_property name="ObjectShortName">txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/txempty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txempty</obj_property>
+      <obj_property name="ObjectShortName">txempty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/txerr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txerr</obj_property>
+      <obj_property name="ObjectShortName">txerr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/rx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/rx_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_en</obj_property>
+      <obj_property name="ObjectShortName">rx_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/rxempty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxempty</obj_property>
+      <obj_property name="ObjectShortName">rxempty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/rxerr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxerr</obj_property>
+      <obj_property name="ObjectShortName">rxerr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/tp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">tp[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/startread" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">startread</obj_property>
+      <obj_property name="ObjectShortName">startread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/tclk" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">tclk</obj_property>
+      <obj_property name="ObjectShortName">tclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/UUT/TCBASE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TCBASE</obj_property>
+      <obj_property name="ObjectShortName">TCBASE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rs232_top_rs232_top_sch_tb/startread" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">startread</obj_property>
+      <obj_property name="ObjectShortName">startread</obj_property>
+   </wvobject>
+</wave_config>

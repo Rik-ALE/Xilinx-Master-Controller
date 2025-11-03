@@ -1,0 +1,57 @@
+
+MasterSi used as the PrintLogger
+================================
+- Software in controller v809 or later **
+- Fit PrintLog_MSi01.bit firmware to a MasterSi
+- Boot and check for 8 beeps
+- SSH in to controller (pi/2020ale2020) and edit boot file to stop jet.ax running:
+  $ . end.sh
+	$ nano /Codex/mp-boot2.sh
+	- Near the end of the script find "/Codex/*/Program/$JETA"
+	- Put "echo " in front of it (bash doesn't like empty if-fi statements)
+** Note if you do a CodeLoad it may re-program the FPGA. Check for the 8 beeps after!!
+
+
+Master controller under test
+============================
+- Any Master with f/w or RJ45 head connectors (RJ45 double-speed mode not supported yet)
+- Note only one PSU needed as 12v goes via f/w cables between controllers
+- Fit f/w cables from head #1 of test controller to head #1 of Print-Logger
+  - Head #2 to head #2 etc. Max 4 heads.
+  - Note cables will physically cross over
+
+
+Data logging
+============
+- Power up one of the controllers then SSH in to the PrintLogger
+- Jet.ax should not be running
+- Command format:
+		$ sudo hello.ax SLICES FW_MODE INTERLEAVE INVERTS DOT_LIMIT/SLICE SHIFT_DOTS0 COMPRESS NO_CONSOLE FLIP_BITMAP
+- FW_MODE means capture encoded serial data from f/w connectors
+  - The alarm led will light to confirm f/w mode (and relay will click)
+- Example with f/w conns:
+		1x 72mm heads with f/w conns: $ sudo /Codex/???/Program/hello.ax 1 1 0 0 512 0 0 0 0
+		2x 72mm heads with f/w conns: $ sudo /Codex/???/Program/hello.ax 2 1 0 0 512 0 0 0 0
+		1x 18mm head with f/w conns: $ sudo /Codex/???/Program/hello.ax 1 1 0 0 128 0 0 0 0
+- Capture is automatic and looks for gaps in printing
+  - Capture can also be paused by activating PEC#2
+- Outputs to LCD and BMP files in home/pi
+
+
+Other features
+==============
+- Not documented here, but to know it's possible...
+1. The PrintLogger can also capture unencoded data (SCK + DATA + FIRE) by adding a custom interface board ***
+  - Therefore can capture raw X128 and Seiko head signals
+  - The custom board converts TTL to LVDS using resistors
+2. Captured & decoded data can be output to TX(7:0) on the head connector board
+  - Fit the Debug jmper on the PrintLogger motherboard
+  - Note the controller under test will receive strange register data as a result and may complain
+  *** Useful to debug the signals on the custom board
+3. TTZ mode can be supported
+
+
+
+
+
+

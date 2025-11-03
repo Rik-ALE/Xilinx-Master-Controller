@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/MasterPi_Test_MasterPi_Test_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="masterpi_test_masterpi_test_sch_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="36" />
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/clkin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/clk144m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk144m</obj_property>
+      <obj_property name="ObjectShortName">clk144m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/softresetn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">softresetn</obj_property>
+      <obj_property name="ObjectShortName">softresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/rasgo" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rasgo[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rasgo[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/ttzmode" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ttzmode</obj_property>
+      <obj_property name="ObjectShortName">ttzmode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/fire" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fire[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fire[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/dotcnta" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dotcnta[8:0]</obj_property>
+      <obj_property name="ObjectShortName">dotcnta[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/dotcntb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dotcntb[8:0]</obj_property>
+      <obj_property name="ObjectShortName">dotcntb[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/raspnta" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">raspnta[15:0]</obj_property>
+      <obj_property name="ObjectShortName">raspnta[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/raspntb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">raspntb[15:0]</obj_property>
+      <obj_property name="ObjectShortName">raspntb[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/FIRE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FIRE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">FIRE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/MEMA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEMA[24:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMA[24:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/MEMRAS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEMRAS[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMRAS[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/MEMHD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEMHD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMHD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/MEMBY" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEMBY[5:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMBY[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/RAMRDn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMRDn</obj_property>
+      <obj_property name="ObjectShortName">RAMRDn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/RAMWRn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMWRn</obj_property>
+      <obj_property name="ObjectShortName">RAMWRn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/MDIN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MDIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MDIN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/SPICSn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SPICSn</obj_property>
+      <obj_property name="ObjectShortName">SPICSn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_Spi_Image/XLXI_ImgPiTop/SPIEN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SPIEN</obj_property>
+      <obj_property name="ObjectShortName">SPIEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_Spi_Image/XLXI_ImgPiTop/SPID" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SPID[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SPID[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/sp_next_byte" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sp_next_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sp_next_byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_Spi_Image/XLXI_ImgPiTop/IMGDO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IMGDO</obj_property>
+      <obj_property name="ObjectShortName">IMGDO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_Spi_Image/XLXI_ImgPiTop/IMGZ2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IMGZ2</obj_property>
+      <obj_property name="ObjectShortName">IMGZ2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_Spi_Image/XLXI_ImgPiTop/IMGWR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IMGWR</obj_property>
+      <obj_property name="ObjectShortName">IMGWR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_Spi_Image/XLXI_ImgPiTop/IMGAO[12]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[12]</obj_property>
+      <obj_property name="ObjectShortName">IMGAO[12]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_Spi_Image/XLXI_ImgPiTop/MEMA[9]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[9]</obj_property>
+      <obj_property name="ObjectShortName">MEMA[9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_Spi_Image/XLXI_ImgPiTop/RDZ2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RDZ2</obj_property>
+      <obj_property name="ObjectShortName">RDZ2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_DataOp8/SDAT0[0]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">SDAT0[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_DataOp8/SDAT1[0]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">SDAT1[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_DataOp8/SD_CLK" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SD_CLK[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SD_CLK[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_DataOp8/SFIRE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SFIRE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SFIRE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_Spi_Image/XLXI_ImgPiTop/TPRDZ2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TPRDZ2</obj_property>
+      <obj_property name="ObjectShortName">TPRDZ2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/masterpi_test_masterpi_test_sch_tb/UUT/XLXI_Spi_Image/XLXI_ImgPiTop/TPWRZ2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TPWRZ2</obj_property>
+      <obj_property name="ObjectShortName">TPWRZ2</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="J:/Ale/Xilinx/MS01/MS01-ISE14/RegSeq_RtFast_RegSeq_RtFast_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="regseq_rtfast_regseq_rtfast_sch_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/clk48m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk48m</obj_property>
+      <obj_property name="ObjectShortName">clk48m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/en16m" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">en16m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">en16m[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/en_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en_clk</obj_property>
+      <obj_property name="ObjectShortName">en_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/fire_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fire_en</obj_property>
+      <obj_property name="ObjectShortName">fire_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/UUT/REGEN_HD0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">REGEN_HD0</obj_property>
+      <obj_property name="ObjectShortName">REGEN_HD0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/UUT/ESC_HD0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ESC_HD0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ESC_HD0[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/regs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regs[3:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/hdsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hdsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">hdsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/regsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regsel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">regsel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/regsel_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regsel_en</obj_property>
+      <obj_property name="ObjectShortName">regsel_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/escout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">escout[1:0]</obj_property>
+      <obj_property name="ObjectShortName">escout[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/regout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regout[3:0]</obj_property>
+      <obj_property name="ObjectShortName">regout[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/regout_en" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regout_en[3:0]</obj_property>
+      <obj_property name="ObjectShortName">regout_en[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/selreal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">selreal</obj_property>
+      <obj_property name="ObjectShortName">selreal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/hregsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hregsel[5:0]</obj_property>
+      <obj_property name="ObjectShortName">hregsel[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/UUT/OPREAL" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">OPREAL</obj_property>
+      <obj_property name="ObjectShortName">OPREAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/UUT/RTGO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RTGO</obj_property>
+      <obj_property name="ObjectShortName">RTGO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/UUT/FIREGO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">FIREGO</obj_property>
+      <obj_property name="ObjectShortName">FIREGO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regseq_rtfast_regseq_rtfast_sch_tb/UUT/EXTRASR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EXTRASR</obj_property>
+      <obj_property name="ObjectShortName">EXTRASR</obj_property>
+   </wvobject>
+</wave_config>

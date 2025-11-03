@@ -1,0 +1,1 @@
+Needed as ISE is configured to look in a Copy subfolder for each design
