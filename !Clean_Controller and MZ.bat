@@ -5,7 +5,7 @@
 
 @rem MS01 is the design for the MPlus. Controller is masterPi,Si
 
-set FOLDERS=_MS01-ISE14_old_2022-03 Controller
+set FOLDERS=Controller
 
 @rem folders
 for %%x in (%FOLDERS%) do %ALETOOLS%\bin\rm -rf %%x/_ngo %%x/_xmsgs %%x/iseconfig %%x/isim %%x/xlnx_auto_0_xdb %%x/xst
@@ -22,8 +22,13 @@ for %%x in (%FOLDERS%) do %ALETOOLS%\bin\rm -f %%x/*.k* %%x/*.l* %%x/*.m* %%x/*.
 @rem left-overs
 for %%x in (%FOLDERS%) do %ALETOOLS%\bin\rm -f %%x/*.schlog %%x/*.schcmd %%x/*.schbak %%x/*.stx %%x/*.syr %%x/*.unroutes %%x/*.ut %%x/*.vf %%x/*.xml %%x/*.xpi %%x/*.xrpt %%x/*.xst %%x/*.xdl %%x/*.xwbt %%x/*.wdb %%x/*.xmsgs
 
+@rem To check your vivado project into GIT, you only need to check in the following:
+@rem     [project_name].xpr      #VIVADO PROJECT FILE
+@rem     [project_name].srcs/*   #CONTAINS ALL SOURCE: *.vhd, *.sv, *.v, *.bd, *.xci
+@rem     [project_name].sdk/*    #CONTAINS ALL ZYNQ SOURCE: *.c *.h, etc...
+
 @echo .
 @echo Clean MZ_7010_Basic_System folder:
-%ALETOOLS%\bin\rm -rf MZ_7010_Basic_System/MZ_Basic_System.cache MZ_7010_Basic_System/MZ_Basic_System.runs
+%ALETOOLS%\bin\rm -rf MZ_7010_Basic_System/MZ_Basic_System.cache MZ_7010_Basic_System/MZ_Basic_System.runs MZ_7010_Basic_System/MZ_Basic_System.hw MZ_7010_Basic_System/MZ_Basic_System.ip_user_files
 
 pause
