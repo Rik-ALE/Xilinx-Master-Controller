@@ -44,11 +44,7 @@ architecture logic of Discriminator is
 	signal QUAD_i			: std_logic;
 	signal QUAD_RAW_i		: std_logic;						-- quadrature from SENCI() before anti-vibe
 	signal senc_quad		: std_logic;						-- quadrature from SENCI()
---	signal senc_quad_p1		: std_logic;
 	signal senc_last		: std_logic_vector(1 downto 0);
---	signal senc_lock		: std_logic_vector(1 downto 0);		-- to lock out extra pulses
-
---	signal CNTUP_i			: std_logic_vector(nCNT_BITS-1 downto 0);	-- 
 	
 	--------------------------------------------------------------
 	-- Procedures:
@@ -71,29 +67,6 @@ architecture logic of Discriminator is
 		end if;
 	end bool2bit;
 
---	procedure chanfilt(
---		constant chan0 	: integer;
---		constant chan1	: integer;
---		signal senc 	: std_logic_vector(1 downto 0);
---		signal senclast	: std_logic_vector(1 downto 0);
---		signal quad 	: out std_logic;
---		signal lock 	: inout std_logic_vector(1 downto 0);
---		signal quad_raw : out std_logic
---		) is
---	begin
---		if senclast(chan0) /= senc(chan0) then	-- senc edge change?
---		
---			if lock(chan0) = '0' then			-- not already done?
---				quad <= '1';
---				lock(chan0) <= '1';			-- lock this channel until other channel unlocks it
---			end if;
---			
---			quad_raw <= '1';
---			lock(chan1) <= '0';				-- the other channel can now work
---			
---		end if;
---	end chanfilt;
-
 	----------------------------------------------------------------------
 	----------------------------------------------------------------------
 	
@@ -113,50 +86,35 @@ begin
 		if rising_edge(CLK) then
 			if RST = '1' then
 			
---				senc_lock <= "00";
 				DIR_i <= '0';
 				senc_quad <= '0';					-- default value
 				QUAD_RAW_i <= '0';
 				senc_last <= "00";
 				
 			else
---				DIR_i <= '0';
 				senc_quad <= '0';					-- default value
 				QUAD_RAW_i <= '0';
 			
---				chanfilt(0, 1, SENCI, senc_last, senc_quad, senc_lock, QUAD_RAW_i);
---				chanfilt(1, 0, SENCI, senc_last, senc_quad, senc_lock, QUAD_RAW_i);
-
 				nChan := 0;
 				nOther := 1;								-- the other channel 0 or 1
 
 				if senc_last(nChan) /= SENCI(nChan) then	-- senc chan 0 edge change?
---					if senc_lock(nChan) = '0' then			-- not already done?
 						senc_quad <= '1';
---						senc_lock(nChan) <= '1';			-- lock this channel until other channel unlocks it
 						DIR_i <= SENCI(nChan) xor SENCI(nOther);	-- right time to read the direction
---					end if;
 					QUAD_RAW_i <= '1';
---					senc_lock(nOther) <= '0';				-- the other channel can now work
 				end if;
 
 				nChan := 1;
 				nOther := 0;								-- the other channel 0 or 1
 
 				if senc_last(nChan) /= SENCI(nChan) then	-- senc edge change?
---					if senc_lock(nChan) = '0' then			-- not already done?
-						senc_quad <= '1';
---						senc_lock(nChan) <= '1';			-- lock this channel until other channel unlocks it
-						DIR_i <= not (SENCI(nChan) xor SENCI(nOther));	-- right time to read the direction (inverted as B channel logic)
---					end if;
+					senc_quad <= '1';
+					DIR_i <= not (SENCI(nChan) xor SENCI(nOther));	-- right time to read the direction (inverted as B channel logic)
 					QUAD_RAW_i <= '1';
---					senc_lock(nOther) <= '0';				-- the other channel can now work
 				end if;
 				
 				senc_last <= SENCI;
 			end if;
-			
---			senc_quad_p1 <= senc_quad;
 			
 		end if;
 	end process;
@@ -167,21 +125,11 @@ begin
 
 	p_descrim : process(CLK)
 		variable nCountDn: integer := 0;
---		variable nCountUp: integer := 0;
 		variable bSense: boolean;						-- direction detected
 		variable bDir: boolean;
 		variable bJustZero: boolean;
 	begin
 		if rising_edge(CLK) then
-		
-	
---			if nCountDn = 0 then						-- allow quad pulses if not pause
---				PAUSED <= '0';							-- when encoder output allowed
---				QUAD_i <= senc_quad;					-- encoder o/p allowed (plus 1 to avoid extra pulse)
---			else
---				PAUSED <= '1';							-- blocked
---				QUAD_i <= '0';							-- default
---			end if;
 	
 			bJustZero := false;							-- only used to block an extra quad pulse on exit from jitter
 			
@@ -206,26 +154,18 @@ begin
 						bSense := not bSense;			-- assume we are have the wrong direction setting and flip it. Affects SENSE.
 						nCountDn := 0;					-- start again
 					end if;
-					
---					nCountUp := nCountUp - 1;
 				else
 					if nCountDn /= 0 then				-- dec count
 						nCountDn := nCountDn - 1;
 						bJustZero := true;				-- signal that just gone to zero
 					end if;
-					
---					nCountUp := nCountUp + 1;
-
 				end if;
 				
 			end if;
 
 			CNTDN_i <= std_logic_vector(to_unsigned(nCountDn, CNTDN_i'length));
---			CNTUP_i <= std_logic_vector(to_unsigned(nCountUp, CNTUP_i'length));
 			
 			if nCountDn=0 and not bJustZero then		-- bJustZero prevents an extra unwanted quad pulse
---			if to_integer(unsigned(CNTDN_i)) = 0 then	-- nCountDn was 0 in prvious clock? (instead of using nCountDn)
-
 				PAUSED <= '0';							-- when encoder output allowed
 				QUAD_i <= senc_quad;					-- encoder o/p allowed (plus 1 to avoid extra pulse)
 			else
@@ -246,7 +186,6 @@ begin
 	DIR <= DIR_i;
 	QUAD <= QUAD_i;
 	QUAD_RAW <= QUAD_RAW_i;
---	TP <= senc_lock(1 downto 0) & QUAD_i & QUAD_RAW_i & SENCI(1 downto 0);
 	TP <= "00" & QUAD_i & QUAD_RAW_i & SENCI(1 downto 0);
 		
 end logic;

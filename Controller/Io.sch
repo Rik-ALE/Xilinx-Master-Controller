@@ -36,14 +36,6 @@
         <signal name="EN16M(31:0)" />
         <signal name="XPECn(1:0)" />
         <signal name="EN16M(8)" />
-        <signal name="SENCDUB(1:0)" />
-        <signal name="SENCQUAD(1:0)" />
-        <signal name="SENCQUADn(1:0)" />
-        <signal name="SQP_EN(1:0)" />
-        <signal name="SQN_EN(1:0)" />
-        <signal name="SENCX(2),SENCX(0)" />
-        <signal name="SENCX(3),SENCX(1)" />
-        <signal name="EN16M(4)" />
         <signal name="SENC(3:0)" />
         <signal name="SENCX(3:0)" />
         <signal name="SE(3:0)" />
@@ -64,6 +56,7 @@
         <signal name="TPDX(5:0)" />
         <signal name="TPD(11:0)" />
         <signal name="QUAD_RAW(1:0)" />
+        <signal name="EN16M(4)" />
         <port polarity="Output" name="PECSTATE(1:0)" />
         <port polarity="Output" name="XPECSTATE(1:0)" />
         <port polarity="Input" name="DIVFRESH(1:0)" />
@@ -82,20 +75,6 @@
         <port polarity="Output" name="DIR(1:0)" />
         <port polarity="Output" name="PAUSED(1:0)" />
         <port polarity="Input" name="SIMULATE" />
-        <blockdef name="xnor2">
-            <timestamp>2000-1-1T10:10:10</timestamp>
-            <line x2="64" y1="-64" y2="-64" x1="0" />
-            <line x2="60" y1="-128" y2="-128" x1="0" />
-            <arc ex="44" ey="-144" sx="48" sy="-48" r="56" cx="16" cy="-96" />
-            <arc ex="64" ey="-144" sx="64" sy="-48" r="56" cx="32" cy="-96" />
-            <line x2="64" y1="-144" y2="-144" x1="128" />
-            <line x2="64" y1="-48" y2="-48" x1="128" />
-            <arc ex="128" ey="-144" sx="208" sy="-96" r="88" cx="132" cy="-56" />
-            <arc ex="208" ey="-96" sx="128" sy="-48" r="88" cx="132" cy="-136" />
-            <circle r="8" cx="220" cy="-96" />
-            <line x2="256" y1="-96" y2="-96" x1="228" />
-            <line x2="60" y1="-28" y2="-28" x1="60" />
-        </blockdef>
         <blockdef name="or2">
             <timestamp>2000-1-1T10:10:10</timestamp>
             <line x2="64" y1="-64" y2="-64" x1="0" />
@@ -331,51 +310,10 @@
             <blockpin signalname="XPECn(1:0)" name="INPUT" />
             <blockpin signalname="XLXN_153(1:0)" name="Q" />
         </block>
-        <block symbolname="inv" name="XLXI_479(1:0)">
-            <blockpin signalname="SENCQUAD(1:0)" name="I" />
-            <blockpin signalname="SENCQUADn(1:0)" name="O" />
-        </block>
-        <block symbolname="or2" name="XLXI_487(1:0)">
-            <blockpin signalname="SQN_EN(1:0)" name="I0" />
-            <blockpin signalname="SQP_EN(1:0)" name="I1" />
-            <blockpin name="O" />
-        </block>
-        <block symbolname="xnor2" name="XLXI_94(1:0)">
-            <blockpin signalname="SENCX(3),SENCX(1)" name="I0" />
-            <blockpin signalname="SENCX(2),SENCX(0)" name="I1" />
-            <blockpin signalname="SENCDUB(1:0)" name="O" />
-        </block>
         <block symbolname="fd" name="XLXI_552(3:0)">
             <blockpin signalname="CLK48M" name="C" />
             <blockpin signalname="SENC(3:0)" name="D" />
             <blockpin signalname="SENCX(3:0)" name="Q" />
-        </block>
-        <block symbolname="EdgeP" name="XLXI_EdgePP(1:0)">
-            <blockpin signalname="CLK48M" name="CLK" />
-            <blockpin signalname="SQP_EN(1:0)" name="EDGE1" />
-            <blockpin signalname="SENCQUAD(1:0)" name="PULSE" />
-        </block>
-        <block symbolname="EdgeP" name="XLXI_EdgePN(1:0)">
-            <blockpin signalname="CLK48M" name="CLK" />
-            <blockpin signalname="SQN_EN(1:0)" name="EDGE1" />
-            <blockpin signalname="SENCQUADn(1:0)" name="PULSE" />
-        </block>
-        <block symbolname="Filter" name="XLXI_553(3:0)">
-            <blockpin signalname="CLK48M" name="CLK" />
-            <blockpin signalname="EN16M(4)" name="CLKEN" />
-            <blockpin signalname="SENCX(3:0)" name="INPUT" />
-            <blockpin signalname="SE(3:0)" name="Q" />
-        </block>
-        <block symbolname="xnor2" name="XLXI_554(1:0)">
-            <blockpin signalname="SE(3),SE(1)" name="I0" />
-            <blockpin signalname="SE(2),SE(0)" name="I1" />
-            <blockpin signalname="SENCQUAD(1:0)" name="O" />
-        </block>
-        <block symbolname="Filter" name="XLXI_513(1:0)">
-            <blockpin signalname="CLK48M" name="CLK" />
-            <blockpin signalname="EN16M(4)" name="CLKEN" />
-            <blockpin signalname="SENCDUB(1:0)" name="INPUT" />
-            <blockpin name="Q" />
         </block>
         <block symbolname="fd" name="XLXI_545(1:0)">
             <blockpin signalname="CLK48M" name="C" />
@@ -431,6 +369,12 @@
         <block symbolname="buf" name="XLXI_586(11:0)">
             <blockpin signalname="TPD(11:0)" name="I" />
             <blockpin name="O" />
+        </block>
+        <block symbolname="Filter" name="XLXI_553(3:0)">
+            <blockpin signalname="CLK48M" name="CLK" />
+            <blockpin signalname="EN16M(4)" name="CLKEN" />
+            <blockpin signalname="SENCX(3:0)" name="INPUT" />
+            <blockpin signalname="SE(3:0)" name="Q" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="3801" height="2688">
@@ -631,7 +575,6 @@
         <branch name="XPECn(1:0)">
             <wire x2="432" y1="880" y2="880" x1="240" />
         </branch>
-        <text style="fontsize:24;fontname:Arial" x="228" y="988">CLKS(8)=62.5kHz</text>
         <branch name="EN16M(8)">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="384" y="944" type="branch" />
             <wire x2="432" y1="944" y2="944" x1="384" />
@@ -644,62 +587,6 @@
         </instance>
         <iomarker fontsize="28" x="240" y="880" name="XPECn(1:0)" orien="R180" />
         <text style="alignment:CENTER;fontsize:44;fontname:Arial" x="3536" y="2536">IO</text>
-        <branch name="SENCDUB(1:0)">
-            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="256" y="1632" type="branch" />
-            <wire x2="256" y1="1632" y2="1632" x1="240" />
-            <wire x2="752" y1="1632" y2="1632" x1="256" />
-            <wire x2="240" y1="1632" y2="1808" x1="240" />
-            <wire x2="256" y1="1808" y2="1808" x1="240" />
-            <wire x2="752" y1="1520" y2="1520" x1="736" />
-            <wire x2="752" y1="1520" y2="1632" x1="752" />
-        </branch>
-        <branch name="SENCQUADn(1:0)">
-            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="976" y="1904" type="branch" />
-            <wire x2="976" y1="1904" y2="1904" x1="944" />
-            <wire x2="1040" y1="1904" y2="1904" x1="976" />
-        </branch>
-        <text style="fontsize:24;fontname:Arial" x="292" y="1436">QUADRATURE FOR SENC1+2</text>
-        <instance x="1056" y="1552" name="XLXI_487(1:0)" orien="R0" />
-        <branch name="SQP_EN(1:0)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1008" y="1424" type="branch" />
-            <wire x2="1056" y1="1424" y2="1424" x1="1008" />
-        </branch>
-        <branch name="SQN_EN(1:0)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1008" y="1488" type="branch" />
-            <wire x2="1056" y1="1488" y2="1488" x1="1008" />
-        </branch>
-        <instance x="480" y="1616" name="XLXI_94(1:0)" orien="R0" />
-        <branch name="SENCX(2),SENCX(0)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="416" y="1488" type="branch" />
-            <wire x2="480" y1="1488" y2="1488" x1="416" />
-        </branch>
-        <branch name="SENCX(3),SENCX(1)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="416" y="1552" type="branch" />
-            <wire x2="480" y1="1552" y2="1552" x1="416" />
-        </branch>
-        <branch name="CLK48M">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="992" y="1840" type="branch" />
-            <wire x2="1040" y1="1840" y2="1840" x1="992" />
-        </branch>
-        <branch name="CLK48M">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="992" y="1632" type="branch" />
-            <wire x2="1040" y1="1632" y2="1632" x1="992" />
-        </branch>
-        <rect width="1632" x="52" y="1380" height="704" />
-        <text style="fontsize:24;fontname:Arial" x="100" y="1952">GENERATE 4x SENC PULSES PER QUADRATURE</text>
-        <text style="fontsize:24;fontname:Arial" x="96" y="1980">AND USE BOTH EDGES TP GENERATE ENABLES</text>
-        <text style="fontsize:24;fontname:Arial" x="92" y="2012">DEFAULT ENCODER = 25 PPMM = 25kHz AT 1m/s</text>
-        <text style="fontsize:24;fontname:Arial" x="532" y="2060">GENERATE PULSES FROM BOTH EDGES OF INPUT = x4 FREQUENCY OF A SINGLE CHANNEL</text>
-        <text style="fontsize:24;fontname:Arial" x="108" y="1844">CLKS(4)=1MHz</text>
-        <branch name="EN16M(4)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="224" y="1872" type="branch" />
-            <wire x2="256" y1="1872" y2="1872" x1="224" />
-        </branch>
-        <text style="fontsize:24;fontname:Arial" x="600" y="1708">NOISE FILTER</text>
-        <branch name="CLK48M">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="192" y="1744" type="branch" />
-            <wire x2="256" y1="1744" y2="1744" x1="192" />
-        </branch>
         <branch name="SENC(3:0)">
             <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="320" y="1120" type="branch" />
             <wire x2="320" y1="1120" y2="1120" x1="240" />
@@ -718,67 +605,8 @@
             <wire x2="432" y1="1248" y2="1248" x1="384" />
         </branch>
         <text style="fontsize:24;fontname:Arial" x="3368" y="664">ENABLE FOR CLK48M</text>
-        <instance x="1040" y="1728" name="XLXI_EdgePP(1:0)" orien="R0">
-        </instance>
-        <branch name="SQP_EN(1:0)">
-            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="1472" y="1632" type="branch" />
-            <wire x2="1472" y1="1632" y2="1632" x1="1424" />
-        </branch>
-        <instance x="1040" y="1936" name="XLXI_EdgePN(1:0)" orien="R0">
-        </instance>
-        <branch name="SQN_EN(1:0)">
-            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="1472" y="1840" type="branch" />
-            <wire x2="1472" y1="1840" y2="1840" x1="1424" />
-        </branch>
-        <instance x="256" y="2432" name="XLXI_553(3:0)" orien="R0">
-        </instance>
-        <branch name="EN16M(4)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="208" y="2400" type="branch" />
-            <wire x2="256" y1="2400" y2="2400" x1="208" />
-        </branch>
-        <branch name="CLK48M">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="192" y="2272" type="branch" />
-            <wire x2="256" y1="2272" y2="2272" x1="192" />
-        </branch>
-        <text style="fontsize:24;fontname:Arial" x="108" y="2372">CLKS(4)=1MHz</text>
-        <branch name="SENCX(3:0)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="192" y="2336" type="branch" />
-            <wire x2="256" y1="2336" y2="2336" x1="192" />
-        </branch>
-        <branch name="SE(3:0)">
-            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="704" y="2272" type="branch" />
-            <wire x2="704" y1="2272" y2="2272" x1="640" />
-        </branch>
-        <instance x="880" y="2464" name="XLXI_554(1:0)" orien="R0" />
-        <branch name="SE(2),SE(0)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="848" y="2336" type="branch" />
-            <wire x2="880" y1="2336" y2="2336" x1="848" />
-        </branch>
-        <branch name="SE(3),SE(1)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="848" y="2400" type="branch" />
-            <wire x2="880" y1="2400" y2="2400" x1="848" />
-        </branch>
-        <branch name="SENCQUAD(1:0)">
-            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="1184" y="2368" type="branch" />
-            <wire x2="1184" y1="2368" y2="2368" x1="1136" />
-        </branch>
-        <branch name="SENCQUAD(1:0)">
-            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="960" y="1696" type="branch" />
-            <wire x2="704" y1="1744" y2="1744" x1="688" />
-            <wire x2="784" y1="1744" y2="1744" x1="704" />
-            <wire x2="704" y1="1744" y2="1904" x1="704" />
-            <wire x2="720" y1="1904" y2="1904" x1="704" />
-            <wire x2="784" y1="1696" y2="1744" x1="784" />
-            <wire x2="960" y1="1696" y2="1696" x1="784" />
-            <wire x2="1040" y1="1696" y2="1696" x1="960" />
-        </branch>
-        <instance x="256" y="1904" name="XLXI_513(1:0)" orien="R0">
-        </instance>
-        <instance x="720" y="1936" name="XLXI_479(1:0)" orien="R0" />
         <text style="alignment:CENTER;fontsize:44;fontname:Arial" x="3544" y="2628">09/06/22  (C) ALE</text>
         <text style="fontsize:24;fontname:Arial" x="3364" y="2580">ADDED PHASE DISCRIMINATOR</text>
-        <line x2="732" y1="2320" y2="1924" x1="1172" />
-        <rect width="1416" x="20" y="2148" height="384" />
         <text style="fontsize:24;fontname:Arial" x="3212" y="640">4x FASTER THEN A SENC CHANNEL</text>
         <text style="fontsize:24;fontname:Arial" x="3404" y="744">40us == 250mm/s</text>
         <branch name="L,L">
@@ -790,7 +618,6 @@
             <wire x2="304" y1="592" y2="592" x1="192" />
         </branch>
         <text style="fontsize:24;fontname:Arial" x="248" y="560">ENABLE PHASE DISCRIMINATOR</text>
-        <text style="fontsize:24;fontname:Arial" x="36" y="2168">FILTER FIRST SO CAN GET DIRECTION</text>
         <text style="fontsize:24;fontname:Arial" x="1616" y="2460">The encoder we use is 5000 pulses per revolution per channel = 10000 pulses total per rev</text>
         <text style="fontsize:24;fontname:Arial" x="1620" y="2492">With a 200mm circumference wheel this results in 10000 pulses per 200mm = every 20um, or 50 pulses/mm. (25 pulses/mm/channel)</text>
         <text style="fontsize:24;fontname:Arial" x="1620" y="2520">&amp;B channel edge detection to get 10um resolution, or 100 pulses/mm.</text>
@@ -949,5 +776,26 @@
             <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2512" y="2064" type="branch" />
             <wire x2="2512" y1="2064" y2="2064" x1="2464" />
         </branch>
+        <instance x="432" y="1632" name="XLXI_553(3:0)" orien="R0">
+        </instance>
+        <branch name="EN16M(4)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="384" y="1600" type="branch" />
+            <wire x2="432" y1="1600" y2="1600" x1="384" />
+        </branch>
+        <branch name="CLK48M">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="368" y="1472" type="branch" />
+            <wire x2="432" y1="1472" y2="1472" x1="368" />
+        </branch>
+        <text style="fontsize:24;fontname:Arial" x="284" y="1572">CLKS(4)=1MHz</text>
+        <branch name="SENCX(3:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="368" y="1536" type="branch" />
+            <wire x2="432" y1="1536" y2="1536" x1="368" />
+        </branch>
+        <branch name="SE(3:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="880" y="1472" type="branch" />
+            <wire x2="880" y1="1472" y2="1472" x1="816" />
+        </branch>
+        <rect width="1096" x="28" y="996" height="728" />
+        <text style="fontsize:24;fontname:Arial" x="228" y="972">CLKS(8)=62.5kHz</text>
     </sheet>
 </drawing>
