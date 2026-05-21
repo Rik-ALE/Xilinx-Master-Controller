@@ -63,7 +63,6 @@
         <signal name="CLKIN" />
         <signal name="BUZZni" />
         <signal name="CODELD" />
-        <signal name="SRACC(7:0)" />
         <signal name="SBITS(7:0)" />
         <signal name="PCBVER(2:0)" />
         <signal name="KCOL(5:0)" />
@@ -112,8 +111,6 @@
         <signal name="CODELD2" />
         <signal name="OK_500" />
         <signal name="TTZMODEx" />
-        <signal name="XLXN_1885(4:0)" />
-        <signal name="XLXN_1886(4:0)" />
         <signal name="OK_RASOFF" />
         <signal name="HCFG(11:0)" />
         <signal name="RO(11:0)" />
@@ -127,7 +124,6 @@
         <signal name="XLXN_1878" />
         <signal name="RS232TX2n" />
         <signal name="TP(9:0)" />
-        <signal name="TPIO(3:0),SDCLK(0),HDLOG(0:1),SFIRE(0:1),SDCLK(1)" />
         <signal name="RAMRDn" />
         <signal name="RASGO(1)" />
         <signal name="RASGO(0)" />
@@ -169,7 +165,6 @@
         <signal name="HDLOG(1:0)" />
         <signal name="TPIO(5:0)" />
         <signal name="XCONFIG(1)" />
-        <signal name="L,L,L,L,TPIO(5:0)" />
         <signal name="JITTER(1:0)" />
         <signal name="L,L,L,JITTER(1:0),L,L,L" />
         <signal name="XLXN_2012(27:0)" />
@@ -182,6 +177,11 @@
         <signal name="XCONFIG(2)" />
         <signal name="CLKCORE,CLK96M" />
         <signal name="HEADSM1(2)" />
+        <signal name="LX(9:0)" />
+        <signal name="TPIO(3:0),SDCLK(0),HDLOG(0:1),SFIRE(0:1),SDCLK(1)" />
+        <signal name="L,L,L,L,TPIO(5:0)" />
+        <signal name="XLXN_2015(4:0)" />
+        <signal name="XLXN_2016(4:0)" />
         <port polarity="Output" name="CLKCORE" />
         <port polarity="Output" name="RSTn" />
         <port polarity="Output" name="TTZMODE" />
@@ -783,28 +783,6 @@
             <blockpin signalname="RSTn" name="I" />
             <blockpin signalname="RST" name="O" />
         </block>
-        <block symbolname="m2_1" name="XLXI_1649(4:0)">
-            <blockpin signalname="XLXN_1885(4:0)" name="D0" />
-            <blockpin signalname="XLXN_1886(4:0)" name="D1" />
-            <blockpin signalname="MASTERPi_Si" name="S0" />
-            <blockpin signalname="FPGAVER(4:0)" name="O" />
-        </block>
-        <block symbolname="constant" name="XLXI_1248">
-            <attr value="08" name="CValue">
-                <trait delete="all:1 sym:0" />
-                <trait editname="all:1 sch:0" />
-                <trait valuetype="BitVector 32 Hexadecimal" />
-            </attr>
-            <blockpin signalname="XLXN_1886(4:0)" name="O" />
-        </block>
-        <block symbolname="constant" name="XLXI_1653">
-            <attr value="0B" name="CValue">
-                <trait delete="all:1 sym:0" />
-                <trait editname="all:1 sch:0" />
-                <trait valuetype="BitVector 32 Hexadecimal" />
-            </attr>
-            <blockpin signalname="XLXN_1885(4:0)" name="O" />
-        </block>
         <block symbolname="and2" name="XLXI_1654">
             <blockpin signalname="TTZMODEx" name="I0" />
             <blockpin signalname="OK_500" name="I1" />
@@ -857,12 +835,6 @@
             <blockpin signalname="XLXN_1878" name="CE" />
             <blockpin signalname="H" name="D" />
             <blockpin signalname="CODELD_NO" name="Q" />
-        </block>
-        <block symbolname="m2_1" name="XLXI_1673(9:0)">
-            <blockpin signalname="L,L,L,L,TPIO(5:0)" name="D0" />
-            <blockpin signalname="TPIO(3:0),SDCLK(0),HDLOG(0:1),SFIRE(0:1),SDCLK(1)" name="D1" />
-            <blockpin signalname="OK_500" name="S0" />
-            <blockpin signalname="TP(9:0)" name="O" />
         </block>
         <block symbolname="Engine" name="XLXI_Engine">
             <blockpin signalname="CLKCORE" name="CLK48M" />
@@ -975,7 +947,7 @@
             <blockpin signalname="CLKCORE" name="CLK" />
             <blockpin signalname="IMGCLK_EN(7:0)" name="IMG_EN(7:0)" />
             <blockpin signalname="MDIN(7:0)" name="MDIN(7:0)" />
-            <blockpin signalname="SRACC(7:0)" name="Q(7:0)" />
+            <blockpin name="Q(7:0)" />
             <blockpin signalname="SRSTn" name="RSTn" />
         </block>
         <block symbolname="buf" name="XLXI_1662(1:0)">
@@ -1136,7 +1108,7 @@
             <blockpin signalname="SOFTRESETn" name="SOFTRESETn" />
             <blockpin signalname="SPIN(4:1)" name="SPIN(3:0)" />
             <blockpin signalname="SPOUT" name="SPOUT" />
-            <blockpin signalname="SRACC(7:0)" name="SRACC(7:0)" />
+            <blockpin signalname="LX(7:0)" name="SRACC(7:0)" />
             <blockpin signalname="TICKLE8(7:0)" name="TICKLE8(7:0)" />
             <blockpin signalname="TICKLEV" name="TICKLEVEL" />
             <blockpin signalname="TICKRUN" name="TICKRUN" />
@@ -1157,6 +1129,34 @@
             <blockpin signalname="OK_500" name="I0" />
             <blockpin signalname="HEADSM1(2)" name="I1" />
             <blockpin signalname="H8MODE" name="O" />
+        </block>
+        <block symbolname="m2_1" name="XLXI_1673(9:0)">
+            <blockpin signalname="LX(9:0)" name="D0" />
+            <blockpin signalname="L,L,L,L,TPIO(5:0)" name="D1" />
+            <blockpin signalname="OK_500" name="S0" />
+            <blockpin signalname="TP(9:0)" name="O" />
+        </block>
+        <block symbolname="constant" name="XLXI_1653">
+            <attr value="0B" name="CValue">
+                <trait delete="all:1 sym:0" />
+                <trait editname="all:1 sch:0" />
+                <trait valuetype="BitVector 32 Hexadecimal" />
+            </attr>
+            <blockpin signalname="XLXN_2015(4:0)" name="O" />
+        </block>
+        <block symbolname="m2_1" name="XLXI_1721(4:0)">
+            <blockpin signalname="XLXN_2015(4:0)" name="D0" />
+            <blockpin signalname="XLXN_2016(4:0)" name="D1" />
+            <blockpin signalname="MASTERPi_Si" name="S0" />
+            <blockpin signalname="FPGAVER(4:0)" name="O" />
+        </block>
+        <block symbolname="constant" name="XLXI_1725">
+            <attr value="09" name="CValue">
+                <trait delete="all:1 sym:0" />
+                <trait editname="all:1 sch:0" />
+                <trait valuetype="BitVector 32 Hexadecimal" />
+            </attr>
+            <blockpin signalname="XLXN_2016(4:0)" name="O" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="5382" height="3801">
@@ -1280,7 +1280,7 @@
         <branch name="KCOL(5:0)">
             <wire x2="4512" y1="1312" y2="1312" x1="4464" />
         </branch>
-        <branch name="SRACC(7:0)">
+        <branch name="LX(7:0)">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="4464" y="1568" type="branch" />
             <wire x2="4512" y1="1568" y2="1568" x1="4464" />
         </branch>
@@ -1707,25 +1707,6 @@
         <text style="fontsize:24;fontname:Arial" x="4464" y="2956">HSEL ignored by One (Except NanoSel(5) = 35pL mode)</text>
         <text style="fontsize:24;fontname:Arial" x="5032" y="2240">See below</text>
         <text style="fontsize:44;fontname:Arial" x="4056" y="3092">COMMON_PI FirmWare</text>
-        <branch name="FPGAVER(4:0)">
-            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="5136" y="3152" type="branch" />
-            <wire x2="5136" y1="3152" y2="3152" x1="5104" />
-        </branch>
-        <instance x="4784" y="3280" name="XLXI_1649(4:0)" orien="R0" />
-        <branch name="XLXN_1885(4:0)">
-            <wire x2="4784" y1="3120" y2="3120" x1="4752" />
-        </branch>
-        <instance x="4608" y="3088" name="XLXI_1653" orien="R0">
-        </instance>
-        <branch name="XLXN_1886(4:0)">
-            <wire x2="4784" y1="3184" y2="3184" x1="4752" />
-        </branch>
-        <instance x="4608" y="3152" name="XLXI_1248" orien="R0">
-        </instance>
-        <branch name="MASTERPi_Si">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="4752" y="3248" type="branch" />
-            <wire x2="4784" y1="3248" y2="3248" x1="4752" />
-        </branch>
         <text style="fontsize:24;fontname:Arial" x="1384" y="2736">DOTCNT CHANGES WITH FALLING EDGE OF SCK_EN</text>
         <instance x="4352" y="2560" name="XLXI_1654" orien="R270" />
         <branch name="HCFG(11:0)">
@@ -1781,7 +1762,6 @@
         </branch>
         <instance x="1568" y="3408" name="XLXI_Halil" orien="R0">
         </instance>
-        <text style="fontsize:24;fontname:Arial" x="4780" y="3288">(SEPERATE VERSION UNTIL STABLE)</text>
         <branch name="ISCLK48M">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="3072" y="224" type="branch" />
             <wire x2="3120" y1="224" y2="224" x1="3072" />
@@ -1899,16 +1879,11 @@
             <wire x2="3840" y1="3776" y2="3776" x1="3504" />
         </branch>
         <iomarker fontsize="28" x="3840" y="3776" name="TP(9:0)" orien="R0" />
-        <instance x="3152" y="3808" name="XLXI_1673(9:0)" orien="R0" />
         <branch name="OK_500">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="3104" y="3776" type="branch" />
             <wire x2="3152" y1="3776" y2="3776" x1="3104" />
         </branch>
-        <branch name="TPIO(3:0),SDCLK(0),HDLOG(0:1),SFIRE(0:1),SDCLK(1)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="3088" y="3712" type="branch" />
-            <wire x2="3152" y1="3712" y2="3712" x1="3088" />
-        </branch>
-        <branch name="L,L,L,L,TPIO(5:0)">
+        <branch name="LX(9:0)">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="3088" y="3648" type="branch" />
             <wire x2="3152" y1="3648" y2="3648" x1="3088" />
         </branch>
@@ -2218,10 +2193,6 @@
         </branch>
         <rect width="860" x="2680" y="1628" height="396" />
         <text style="fontsize:24;fontname:Arial" x="2724" y="1660">ACCUMULATE PRINT DATA FOR TOASTER</text>
-        <branch name="SRACC(7:0)">
-            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="3344" y="1776" type="branch" />
-            <wire x2="3344" y1="1776" y2="1776" x1="3296" />
-        </branch>
         <rect width="1240" x="2672" y="2072" height="1424" />
         <text style="fontsize:24;fontname:Arial" x="2732" y="2100">OUTPUT TO DRIVER BOARD</text>
         <text style="fontsize:24;fontname:Arial" x="2768" y="2128">8x RAMB16 (DISABLED)</text>
@@ -2395,8 +2366,6 @@
         <text style="fontsize:24;fontname:Arial" x="824" y="244">AS 300DPI USES 2 HD O/PS</text>
         <text style="fontsize:24;fontname:Arial" x="2128" y="144">NOTE: RS_RXEN() IS 10ns PULSE ON Pi</text>
         <text style="fontsize:36;fontname:Arial" x="1376" y="144">8x BUFFERS OF 256 BYTES !!!!!!!!!</text>
-        <text style="fontsize:24;fontname:Arial" x="4084" y="3320">CONFIGURATION OPTIONS SET = UNUSED I/O PULLUP, DRIVE DONE HIGH, BITSTREAM COMPRESSED</text>
-        <text style="fontsize:24;fontname:Arial" x="4064" y="3344">ONEMAIN04 FATAL_ERROR:Place:PlXil_Uapflow1.c: HAD TO ENABLE MAP PROPERTIES -timing AND THEN DISABLE!</text>
         <instance x="2976" y="3248" name="XLXI_DataOp8" orien="R0">
         </instance>
         <instance x="3632" y="3056" name="XLXI_743(5:0)" orien="R0" />
@@ -2411,16 +2380,7 @@
             <wire x2="3584" y1="2960" y2="2960" x1="3488" />
             <wire x2="3632" y1="2960" y2="2960" x1="3584" />
         </branch>
-        <rect style="linewidth:W;linecolor:rgb(255,0,0);fillcolor:rgb(221,230,240)" width="1328" x="4040" y="3016" height="768" />
-        <line x2="5296" y1="3376" y2="3376" style="linewidth:W;linecolor:rgb(255,0,0)" x1="4084" />
-        <text style="fontsize:24;fontname:Arial" x="4068" y="3412">VERSION HISTORY:</text>
-        <text style="fontsize:24;fontname:Arial" x="4088" y="3444">V01: OneSeries Pi FirmWare - first release</text>
-        <text style="fontsize:24;fontname:Arial" x="4088" y="3476">V02: Stability fixes and EEPROM update support</text>
-        <text style="fontsize:24;fontname:Arial" x="4088" y="3508">V03: VH SPI_DDB fix after soft reboot, support for both 04 and 05 PCBs.</text>
-        <text style="fontsize:24;fontname:Arial" x="4088" y="3540">V04: One18 fix missing byte in image. 16-bit rasnum in MEMA (for MasterPi)</text>
-        <text style="fontsize:24;fontname:Arial" x="4088" y="3572">V05 2021-07: One72, compressed image, 34mm module invert, stop HREG0 overwrite from other hds</text>
-        <text style="fontsize:24;fontname:Arial" x="4088" y="3604">V06/V02 2021-11: Bitstream compression (img data), PiGPIO data latch fix, Tz34 blanking fix</text>
-        <text style="fontsize:24;fontname:Arial" x="4088" y="3636">V08/V04: 2022-05: MPi: PrintLogger, TTZ mode, APS, Xi250 size support. OneSeries: fix print stops after black pad</text>
+        <rect style="linewidth:W;linecolor:rgb(255,0,0);fillcolor:rgb(221,230,240)" width="1340" x="4040" y="3016" height="768" />
         <instance x="912" y="2064" name="XLXI_745(5:0)" orien="R0" />
         <branch name="TPIO(5:0)">
             <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="896" y="2032" type="branch" />
@@ -2445,8 +2405,6 @@
         <text style="fontsize:24;fontname:Arial" x="928" y="372">RS232#B (TO DB9 CONN ON PCB)</text>
         <text style="fontsize:24;fontname:Arial" x="1136" y="492">FROM HARDWARE</text>
         <arc ex="1224" ey="620" sx="1140" sy="384" r="133" cx="1227" cy="484" />
-        <text style="fontsize:24;fontname:Arial" x="4088" y="3664">V09/V05: SENC PHASE DISCRIMINATOR</text>
-        <text style="fontsize:24;fontname:Arial" x="4088" y="3692">V10/06: ImgErrs. Uncompressed DEV378/BUG520 work. SPI samples on 144MHz instead of 96MHz. Img buffer size work.</text>
         <branch name="TPDBG(27:0)">
             <attrtext style="alignment:SOFT-VRIGHT;fontsize:28;fontname:Arial" attrname="Name" x="4416" y="2640" type="branch" />
             <wire x2="4416" y1="2560" y2="2640" x1="4416" />
@@ -2526,13 +2484,12 @@
         <iomarker fontsize="28" x="208" y="3792" name="TPDBG(27:0)" orien="R180" />
         <text style="fontsize:24;fontname:Arial" x="448" y="3788">FOR 500-SIZED DEVICE ONLY</text>
         <text style="fontsize:24;fontname:Arial" x="4168" y="1020">See etestbit* defs</text>
-        <text style="alignment:RIGHT;fontsize:44;fontname:Arial" x="4400" y="3160">2025-01  (C) ALE</text>
+        <text style="alignment:RIGHT;fontsize:44;fontname:Arial" x="4400" y="3160">2026-05  (C) ALE</text>
         <branch name="H8MODE">
             <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="3904" y="3568" type="branch" />
             <wire x2="3888" y1="3568" y2="3568" x1="3872" />
             <wire x2="3904" y1="3568" y2="3568" x1="3888" />
         </branch>
-        <text style="fontsize:24;fontname:Arial" x="4088" y="3724">V11/07 SpiErr (red-spot error) due to IFD not clocked by 144MHz on i/p</text>
         <branch name="TPRM(5:0)">
             <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="5072" y="2832" type="branch" />
             <wire x2="5056" y1="2848" y2="2848" x1="5024" />
@@ -2546,7 +2503,6 @@
         </instance>
         <text style="fontsize:24;fontname:Arial" x="5028" y="2748">DUBSPEED</text>
         <text style="fontsize:24;fontname:Arial" x="2724" y="2872">DUB HEAD DATA</text>
-        <text style="fontsize:24;fontname:Arial" x="4092" y="3752">MSi V08: MasterSi support Rj45 DUBSPEED         Vnext: DataIn latch fix</text>
         <text style="fontsize:24;fontname:Arial" x="3804" y="3528">SEE IMG_MAN.VHD</text>
         <instance x="3616" y="3664" name="XLXI_1720" orien="R0" />
         <branch name="HEADSM1(2)">
@@ -2562,5 +2518,55 @@
         <text style="fontsize:24;fontname:Arial" x="2220" y="3568">REVERSE OF: SCK1,FIRE1,FIRE0,D2,D1,SCK0</text>
         <text style="fontsize:24;fontname:Arial" x="2220" y="3596">HDLOG(1) MAPS TO HD4 FOR TTZ MODE</text>
         <text style="fontsize:24;fontname:Arial" x="2216" y="3628">=TPIO(3:0),SDCLK(0),HDLOG(0:1),SFIRE(0:1),SDCLK(1)</text>
+        <text style="fontsize:24;fontname:Arial" x="4068" y="3228">CONFIGURATION OPTIONS SET = UNUSED I/O PULLUP, DRIVE DONE HIGH, BITSTREAM COMPRESSED</text>
+        <text style="fontsize:24;fontname:Arial" x="4048" y="3252">ONEMAIN04 FATAL_ERROR:Place:PlXil_Uapflow1.c: HAD TO ENABLE MAP PROPERTIES -timing AND THEN DISABLE!</text>
+        <line x2="5280" y1="3284" y2="3284" style="linewidth:W;linecolor:rgb(255,0,0)" x1="4068" />
+        <text style="fontsize:24;fontname:Arial" x="4052" y="3320">VERSION HISTORY:</text>
+        <text style="fontsize:24;fontname:Arial" x="4072" y="3352">V01: OneSeries Pi FirmWare - first release</text>
+        <text style="fontsize:24;fontname:Arial" x="4072" y="3384">V02: Stability fixes and EEPROM update support</text>
+        <text style="fontsize:24;fontname:Arial" x="4072" y="3416">V03: VH SPI_DDB fix after soft reboot, support for both 04 and 05 PCBs.</text>
+        <text style="fontsize:24;fontname:Arial" x="4072" y="3448">V04: One18 fix missing byte in image. 16-bit rasnum in MEMA (for MasterPi)</text>
+        <text style="fontsize:24;fontname:Arial" x="4072" y="3480">V05 2021-07: One72, compressed image, 34mm module invert, stop HREG0 overwrite from other hds</text>
+        <text style="fontsize:24;fontname:Arial" x="4072" y="3512">V06/V02 2021-11: Bitstream compression (img data), PiGPIO data latch fix, Tz34 blanking fix</text>
+        <text style="fontsize:24;fontname:Arial" x="4072" y="3544">V08/V04: 2022-05: MPi: PrintLogger, TTZ mode, APS, Xi250 size support. OneSeries: fix print stops after black pad</text>
+        <text style="fontsize:24;fontname:Arial" x="4072" y="3572">V09/V05: SENC PHASE DISCRIMINATOR</text>
+        <text style="fontsize:24;fontname:Arial" x="4072" y="3600">V10/06: ImgErrs. Uncompressed DEV378/BUG520 work. SPI samples on 144MHz instead of 96MHz. Img buffer size work.</text>
+        <text style="fontsize:24;fontname:Arial" x="4072" y="3632">V11/07 SpiErr (red-spot error) due to IFD not clocked by 144MHz on i/p</text>
+        <text style="fontsize:24;fontname:Arial" x="4076" y="3660">V8 (MPi/MX): MasterSi support Rj45 DUBSPEED</text>
+        <text style="fontsize:24;fontname:Arial" x="4076" y="3688">V9 (MPi/MX): DataIn latch fix,senc smooth, removed SRAM acc</text>
+        <text style="fontsize:24;fontname:Arial" x="3272" y="1828">(REMOVED V12)</text>
+        <branch name="L,L,L,L,TPIO(5:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="3088" y="3712" type="branch" />
+            <wire x2="3152" y1="3712" y2="3712" x1="3088" />
+        </branch>
+        <branch name="TPIO(3:0),SDCLK(0),HDLOG(0:1),SFIRE(0:1),SDCLK(1)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2864" y="3744" type="branch" />
+            <wire x2="2928" y1="3744" y2="3744" x1="2864" />
+        </branch>
+        <line x2="2360" y1="3648" y2="3724" x1="2364" />
+        <line x2="2360" y1="3708" y2="3724" x1="2372" />
+        <line x2="2360" y1="3708" y2="3720" x1="2348" />
+        <instance x="3152" y="3808" name="XLXI_1673(9:0)" orien="R0" />
+        <instance x="4816" y="3232" name="XLXI_1721(4:0)" orien="R0" />
+        <branch name="FPGAVER(4:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="5168" y="3104" type="branch" />
+            <wire x2="5168" y1="3104" y2="3104" x1="5136" />
+        </branch>
+        <branch name="XLXN_2015(4:0)">
+            <wire x2="4816" y1="3072" y2="3072" x1="4720" />
+        </branch>
+        <branch name="XLXN_2016(4:0)">
+            <wire x2="4816" y1="3136" y2="3136" x1="4784" />
+        </branch>
+        <instance x="4640" y="3104" name="XLXI_1725" orien="R0">
+        </instance>
+        <instance x="4576" y="3040" name="XLXI_1653" orien="R0">
+        </instance>
+        <branch name="MASTERPi_Si">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="4768" y="3200" type="branch" />
+            <wire x2="4816" y1="3200" y2="3200" x1="4768" />
+        </branch>
+        <text style="fontsize:24;fontname:Arial" x="4776" y="3104">MPi+MX</text>
+        <text style="fontsize:24;fontname:Arial" x="4748" y="3056">One</text>
     </sheet>
 </drawing>

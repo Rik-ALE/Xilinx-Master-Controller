@@ -98,7 +98,6 @@
         <signal name="KCi(4:0)" />
         <signal name="KCOL(0:4)" />
         <signal name="KCi(3:0),KCi(4)" />
-        <signal name="L,L,L,TP_DIP(6:0)" />
         <port polarity="Input" name="RXHD(7:0)" />
         <port polarity="Output" name="LEDRED" />
         <port polarity="Output" name="PON" />
@@ -527,7 +526,7 @@
             <blockpin signalname="TPDBG(27:0)" name="TPDBG(27:0)" />
         </block>
         <block symbolname="buf" name="XLXI_2105(9:0)">
-            <blockpin signalname="L,L,L,TP_DIP(6:0)" name="I" />
+            <blockpin signalname="TPCOM(9:0)" name="I" />
             <blockpin signalname="TP69,TP33,TP(7:0)" name="O" />
         </block>
         <block symbolname="SPI_Image" name="XLXI_Spi_Image">
@@ -1141,7 +1140,7 @@
         </instance>
         <text style="fontsize:24;fontname:Arial" x="2616" y="764">0=Xi256 size dev (Same PCB)</text>
         <rect width="1412" x="56" y="160" height="784" />
-        <branch name="L,L,L,TP_DIP(6:0)">
+        <branch name="TPCOM(9:0)">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1792" y="544" type="branch" />
             <wire x2="1824" y1="544" y2="544" x1="1792" />
         </branch>
@@ -1286,7 +1285,6 @@
         <instance x="1920" y="880" name="XLXI_2194(7:0)" orien="R0" />
         <iomarker fontsize="28" x="2304" y="752" name="TXHD(7:0)" orien="R0" />
         <text style="fontsize:24;fontname:Arial" x="3420" y="140">48MHz</text>
-        <text style="fontsize:36;fontname:Arial" x="1628" y="220">*** TEST CODE IN REGSEQ.SCH ***</text>
         <instance x="1488" y="1744" name="XLXI_2209(1:0)" orien="R0" />
         <instance x="1488" y="1856" name="XLXI_2210(4:0)" orien="R0" />
         <branch name="KCi(4:0)">
@@ -1308,5 +1306,9 @@
         <text style="fontsize:24;fontname:Arial" x="2628" y="704">1=MasterPi02+. 2=MasterPiLX9</text>
         <text style="fontsize:24;fontname:Arial" x="1924" y="508">IF QUAD SPI FITTED</text>
         <text style="fontsize:24;fontname:Arial" x="2232" y="504">J4 = TP(7:0) ON MSi-02</text>
+        <text style="fontsize:36;fontname:Arial" x="1592" y="280">*** TEST CODE IN REGSEQ.SCH ***</text>
+        <text style="fontsize:24;fontname:Arial" x="1572" y="156">SYNC SMOOTH USAGE 8 BUFFS: 34/74%</text>
+        <text style="fontsize:24;fontname:Arial" x="1576" y="216">SYNC SMOOTH USAGE 16 BUFFS: clock slack issues</text>
+        <text style="fontsize:24;fontname:Arial" x="1572" y="188">SYNC SMOOTH USAGE 8 BUFFS: 34/74%</text>
     </sheet>
 </drawing>

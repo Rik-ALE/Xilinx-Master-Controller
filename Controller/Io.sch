@@ -51,12 +51,10 @@
         <signal name="PAUSED(1:0)" />
         <signal name="SIMULATE" />
         <signal name="QUAD(1:0)" />
-        <signal name="TPD(5),TPDX(4:2),TPD(1:0)" />
         <signal name="TPD(5:0)" />
-        <signal name="TPDX(5:0)" />
-        <signal name="TPD(11:0)" />
         <signal name="QUAD_RAW(1:0)" />
         <signal name="EN16M(4)" />
+        <signal name="TPD(11:0)" />
         <port polarity="Output" name="PECSTATE(1:0)" />
         <port polarity="Output" name="XPECSTATE(1:0)" />
         <port polarity="Input" name="DIVFRESH(1:0)" />
@@ -207,30 +205,23 @@
             <line x2="0" y1="-160" y2="-160" x1="64" />
             <line x2="256" y1="-160" y2="-160" x1="192" />
         </blockdef>
-        <blockdef name="Stretch">
-            <timestamp>2022-6-16T7:10:22</timestamp>
-            <rect width="128" x="64" y="-192" height="192" />
-            <line x2="0" y1="-160" y2="-160" x1="64" />
-            <line x2="0" y1="-96" y2="-96" x1="64" />
-            <line x2="256" y1="-160" y2="-160" x1="192" />
-            <line x2="256" y1="-96" y2="-96" x1="192" />
-            <line x2="256" y1="-32" y2="-32" x1="192" />
-        </blockdef>
         <blockdef name="Discriminator">
-            <timestamp>2022-6-16T13:51:2</timestamp>
-            <rect width="256" x="64" y="-384" height="384" />
+            <timestamp>2026-5-20T7:8:56</timestamp>
+            <rect width="256" x="64" y="-384" height="444" />
             <line x2="0" y1="-352" y2="-352" x1="64" />
-            <line x2="0" y1="-256" y2="-256" x1="64" />
-            <line x2="0" y1="-160" y2="-160" x1="64" />
-            <rect width="64" x="0" y="-76" height="24" />
-            <line x2="0" y1="-64" y2="-64" x1="64" />
             <line x2="384" y1="-352" y2="-352" x1="320" />
-            <line x2="384" y1="-288" y2="-288" x1="320" />
+            <line x2="0" y1="-288" y2="-288" x1="64" />
+            <rect width="64" x="0" y="-236" height="24" />
+            <line x2="0" y1="-224" y2="-224" x1="64" />
+            <line x2="0" y1="-96" y2="-96" x1="64" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
             <line x2="384" y1="-224" y2="-224" x1="320" />
             <line x2="384" y1="-160" y2="-160" x1="320" />
             <line x2="384" y1="-96" y2="-96" x1="320" />
-            <rect width="64" x="320" y="-44" height="24" />
             <line x2="384" y1="-32" y2="-32" x1="320" />
+            <rect width="64" x="320" y="20" height="24" />
+            <line x2="384" y1="32" y2="32" x1="320" />
+            <line x2="384" y1="-288" y2="-288" x1="320" />
         </blockdef>
         <block symbolname="inv" name="XLXI_141">
             <blockpin signalname="RSTn" name="I" />
@@ -291,7 +282,7 @@
             <blockpin name="O" />
         </block>
         <block symbolname="buf" name="XLXI_514(5:0)">
-            <blockpin signalname="TPD(5),TPDX(4:2),TPD(1:0)" name="I" />
+            <blockpin signalname="TPD(5:0)" name="I" />
             <blockpin signalname="TP(5:0)" name="O" />
         </block>
         <block symbolname="gnd" name="XLXI_543">
@@ -343,38 +334,29 @@
             <blockpin signalname="SE(3),SE(1)" name="D" />
             <blockpin name="Q" />
         </block>
-        <block symbolname="buf" name="XLXI_587(5:0)">
-            <blockpin signalname="TPDX(5:0)" name="I" />
-            <blockpin name="O" />
-        </block>
-        <block symbolname="Stretch" name="XLXI_583(5:0)">
-            <blockpin signalname="CLK48M" name="CK" />
-            <blockpin signalname="TPD(5:0)" name="I" />
-            <blockpin name="O4" />
-            <blockpin signalname="TPDX(5:0)" name="O8" />
-            <blockpin name="Q64" />
-        </block>
-        <block symbolname="Discriminator" name="XLXI_Discr(1:0)">
-            <blockpin signalname="RST" name="RST" />
-            <blockpin signalname="CLK48M" name="CLK" />
-            <blockpin signalname="SIMULATE" name="SIM" />
-            <blockpin signalname="SE(3:0)" name="SENCI(1:0)" />
-            <blockpin signalname="QUAD_RAW(1:0)" name="QUAD_RAW" />
-            <blockpin signalname="QUAD(1:0)" name="QUAD" />
-            <blockpin signalname="PAUSED(1:0)" name="PAUSED" />
-            <blockpin signalname="DIR(1:0)" name="DIR" />
-            <blockpin name="SENSE" />
-            <blockpin signalname="TPD(11:0)" name="TP(5:0)" />
-        </block>
-        <block symbolname="buf" name="XLXI_586(11:0)">
-            <blockpin signalname="TPD(11:0)" name="I" />
-            <blockpin name="O" />
-        </block>
         <block symbolname="Filter" name="XLXI_553(3:0)">
             <blockpin signalname="CLK48M" name="CLK" />
             <blockpin signalname="EN16M(4)" name="CLKEN" />
             <blockpin signalname="SENCX(3:0)" name="INPUT" />
             <blockpin signalname="SE(3:0)" name="Q" />
+        </block>
+        <block symbolname="buf" name="XLXI_586(11:0)">
+            <blockpin signalname="TPD(11:0)" name="I" />
+            <blockpin name="O" />
+        </block>
+        <block symbolname="Discriminator" name="XLXI_Discr(1:0)">
+            <blockpin signalname="RST" name="RST" />
+            <blockpin signalname="QUAD_RAW(1:0)" name="QUAD_RAW" />
+            <blockpin signalname="CLK48M" name="CLK" />
+            <blockpin signalname="SE(3:0)" name="SENCI(1:0)" />
+            <blockpin signalname="SIMULATE" name="SIM" />
+            <blockpin signalname="DISCRIM" name="SMOOTH" />
+            <blockpin signalname="QUAD(1:0)" name="QUAD" />
+            <blockpin signalname="PAUSED(1:0)" name="PAUSED" />
+            <blockpin signalname="DIR(1:0)" name="DIR" />
+            <blockpin name="SENSE" />
+            <blockpin signalname="TPD(11:0)" name="TP(5:0)" />
+            <blockpin name="QUAD_SMO" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="3801" height="2688">
@@ -530,7 +512,7 @@
         <branch name="TP(5:0)">
             <wire x2="3088" y1="2640" y2="2640" x1="3024" />
         </branch>
-        <branch name="TPD(5),TPDX(4:2),TPD(1:0)">
+        <branch name="TPD(5:0)">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2752" y="2640" type="branch" />
             <wire x2="2800" y1="2640" y2="2640" x1="2752" />
         </branch>
@@ -586,7 +568,6 @@
         <instance x="432" y="976" name="XLXI_92(1:0)" orien="R0">
         </instance>
         <iomarker fontsize="28" x="240" y="880" name="XPECn(1:0)" orien="R180" />
-        <text style="alignment:CENTER;fontsize:44;fontname:Arial" x="3536" y="2536">IO</text>
         <branch name="SENC(3:0)">
             <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="320" y="1120" type="branch" />
             <wire x2="320" y1="1120" y2="1120" x1="240" />
@@ -605,8 +586,6 @@
             <wire x2="432" y1="1248" y2="1248" x1="384" />
         </branch>
         <text style="fontsize:24;fontname:Arial" x="3368" y="664">ENABLE FOR CLK48M</text>
-        <text style="alignment:CENTER;fontsize:44;fontname:Arial" x="3544" y="2628">09/06/22  (C) ALE</text>
-        <text style="fontsize:24;fontname:Arial" x="3364" y="2580">ADDED PHASE DISCRIMINATOR</text>
         <text style="fontsize:24;fontname:Arial" x="3212" y="640">4x FASTER THEN A SENC CHANNEL</text>
         <text style="fontsize:24;fontname:Arial" x="3404" y="744">40us == 250mm/s</text>
         <branch name="L,L">
@@ -713,7 +692,7 @@
         <text style="fontsize:24;fontname:Arial" x="1804" y="1504">DETECT ENCODER DIRECTION</text>
         <instance x="2512" y="1744" name="XLXI_561(1:0)" orien="R0">
         </instance>
-        <rect width="1112" x="1772" y="1776" height="484" />
+        <rect width="1112" x="1772" y="1776" height="552" />
         <branch name="RST">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2016" y="1872" type="branch" />
             <wire x2="2080" y1="1872" y2="1872" x1="2016" />
@@ -723,59 +702,11 @@
             <wire x2="256" y1="2608" y2="2608" x1="192" />
         </branch>
         <iomarker fontsize="28" x="192" y="2608" name="SIMULATE" orien="R180" />
-        <branch name="TPD(5:0)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="3072" y="2288" type="branch" />
-            <wire x2="3104" y1="2288" y2="2288" x1="3072" />
-        </branch>
-        <branch name="CLK48M">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="3072" y="2224" type="branch" />
-            <wire x2="3104" y1="2224" y2="2224" x1="3072" />
-        </branch>
-        <branch name="TPDX(5:0)">
-            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="3408" y="2288" type="branch" />
-            <wire x2="3408" y1="2288" y2="2288" x1="3360" />
-            <wire x2="3456" y1="2288" y2="2288" x1="3408" />
-        </branch>
-        <instance x="3456" y="2320" name="XLXI_587(5:0)" orien="R0" />
-        <instance x="3104" y="2384" name="XLXI_583(5:0)" orien="R0">
-        </instance>
-        <branch name="TPD(11:0)">
-            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="2560" y="2192" type="branch" />
-            <wire x2="2560" y1="2192" y2="2192" x1="2464" />
-            <wire x2="2624" y1="2192" y2="2192" x1="2560" />
-        </branch>
-        <instance x="2624" y="2224" name="XLXI_586(11:0)" orien="R0" />
-        <branch name="PAUSED(1:0)">
-            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2512" y="2000" type="branch" />
-            <wire x2="2512" y1="2000" y2="2000" x1="2464" />
-        </branch>
-        <branch name="QUAD(1:0)">
-            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2512" y="1936" type="branch" />
-            <wire x2="2512" y1="1936" y2="1936" x1="2464" />
-        </branch>
-        <branch name="SE(3:0)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2016" y="2160" type="branch" />
-            <wire x2="2080" y1="2160" y2="2160" x1="2016" />
-        </branch>
-        <branch name="SIMULATE">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2016" y="2064" type="branch" />
-            <wire x2="2080" y1="2064" y2="2064" x1="2016" />
-        </branch>
-        <branch name="CLK48M">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2016" y="1968" type="branch" />
-            <wire x2="2080" y1="1968" y2="1968" x1="2016" />
-        </branch>
-        <instance x="2080" y="2224" name="XLXI_Discr(1:0)" orien="R0">
-        </instance>
         <branch name="QUAD_RAW(1:0)">
             <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2512" y="1872" type="branch" />
             <wire x2="2512" y1="1872" y2="1872" x1="2464" />
         </branch>
         <text style="fontsize:24;fontname:Arial" x="1912" y="1220">WAS SENC_EN()</text>
-        <branch name="DIR(1:0)">
-            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2512" y="2064" type="branch" />
-            <wire x2="2512" y1="2064" y2="2064" x1="2464" />
-        </branch>
         <instance x="432" y="1632" name="XLXI_553(3:0)" orien="R0">
         </instance>
         <branch name="EN16M(4)">
@@ -797,5 +728,49 @@
         </branch>
         <rect width="1096" x="28" y="996" height="728" />
         <text style="fontsize:24;fontname:Arial" x="228" y="972">CLKS(8)=62.5kHz</text>
+        <branch name="CLK48M">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2016" y="1936" type="branch" />
+            <wire x2="2080" y1="1936" y2="1936" x1="2016" />
+        </branch>
+        <branch name="SE(3:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2016" y="2000" type="branch" />
+            <wire x2="2080" y1="2000" y2="2000" x1="2016" />
+        </branch>
+        <branch name="SIMULATE">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2016" y="2128" type="branch" />
+            <wire x2="2080" y1="2128" y2="2128" x1="2016" />
+        </branch>
+        <branch name="DISCRIM">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2016" y="2064" type="branch" />
+            <wire x2="2080" y1="2064" y2="2064" x1="2016" />
+        </branch>
+        <text style="fontsize:24;fontname:Arial" x="256" y="624">ALSO ENABLES SMOOTHING</text>
+        <text style="fontsize:24;fontname:Arial" x="1792" y="2036">ALSO ENABLES SMOOTHING</text>
+        <branch name="TPD(11:0)">
+            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="2560" y="2256" type="branch" />
+            <wire x2="2560" y1="2256" y2="2256" x1="2464" />
+            <wire x2="2624" y1="2256" y2="2256" x1="2560" />
+        </branch>
+        <instance x="2624" y="2288" name="XLXI_586(11:0)" orien="R0" />
+        <branch name="PAUSED(1:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2512" y="2064" type="branch" />
+            <wire x2="2512" y1="2064" y2="2064" x1="2464" />
+        </branch>
+        <branch name="QUAD(1:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2512" y="2000" type="branch" />
+            <wire x2="2512" y1="2000" y2="2000" x1="2464" />
+        </branch>
+        <branch name="DIR(1:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2512" y="2128" type="branch" />
+            <wire x2="2512" y1="2128" y2="2128" x1="2464" />
+        </branch>
+        <instance x="2080" y="2224" name="XLXI_Discr(1:0)" orien="R0">
+        </instance>
+        <text style="fontsize:24;fontname:Arial" x="2456" y="1976">DISCRIM+SMOOTHING</text>
+        <text style="alignment:CENTER;fontsize:44;fontname:Arial" x="3540" y="2520">IO</text>
+        <text style="alignment:CENTER;fontsize:44;fontname:Arial" x="3544" y="2636">20/05/26  (C) ALE</text>
+        <text style="alignment:CENTER;fontsize:24;fontname:Arial" x="3544" y="2556">ADDED PHASE DISCRIMINATOR</text>
+        <text style="alignment:CENTER;fontsize:24;fontname:Arial" x="3544" y="2588">ADDED SENC SMOOTHER</text>
+        <text style="fontsize:24;fontname:Arial" x="2448" y="2212">(11:0 AS COLLECTS 2 INSTANCES)</text>
     </sheet>
 </drawing>
