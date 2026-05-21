@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/user/mnt/Xilnx/Master-Controller/Controller/Discriminator_vhd_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="discriminator_vhd_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/discriminator_vhd_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/discriminator_vhd_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/discriminator_vhd_tb/senci" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">senci[1:0]</obj_property>
+      <obj_property name="ObjectShortName">senci[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/discriminator_vhd_tb/smooth" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">smooth</obj_property>
+      <obj_property name="ObjectShortName">smooth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/discriminator_vhd_tb/paused" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">paused</obj_property>
+      <obj_property name="ObjectShortName">paused</obj_property>
+   </wvobject>
+   <wvobject fp_name="/discriminator_vhd_tb/dir" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dir</obj_property>
+      <obj_property name="ObjectShortName">dir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/discriminator_vhd_tb/sense" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sense</obj_property>
+      <obj_property name="ObjectShortName">sense</obj_property>
+   </wvobject>
+   <wvobject fp_name="/discriminator_vhd_tb/quad_raw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">quad_raw</obj_property>
+      <obj_property name="ObjectShortName">quad_raw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/discriminator_vhd_tb/UUT/quad_smo" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">quad_smo</obj_property>
+      <obj_property name="ObjectShortName">quad_smo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/discriminator_vhd_tb/quad" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">quad</obj_property>
+      <obj_property name="ObjectShortName">quad</obj_property>
+   </wvobject>
+   <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">smooth_cnt[0:15]</obj_property>
+      <obj_property name="ObjectShortName">smooth_cnt[0:15]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[1]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[2]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[3]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[4]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[5]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[6]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[7]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[8]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[9]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[10]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[11]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[12]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[13]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[14]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_cnt[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">smooth_cnt[15]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_av" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">smooth_av[19:0]</obj_property>
+      <obj_property name="ObjectShortName">smooth_av[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_av_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">smooth_av_1[21:0]</obj_property>
+      <obj_property name="ObjectShortName">smooth_av_1[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/discriminator_vhd_tb/UUT/smooth_av_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">smooth_av_2[21:0]</obj_property>
+      <obj_property name="ObjectShortName">smooth_av_2[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
