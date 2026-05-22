@@ -350,7 +350,7 @@
             <blockpin signalname="CLK48M" name="CLK" />
             <blockpin signalname="SE(3:0)" name="SENCI(1:0)" />
             <blockpin signalname="SIMULATE" name="SIM" />
-            <blockpin signalname="DISCRIM" name="SMOOTH" />
+            <blockpin signalname="L" name="SMOOTH" />
             <blockpin signalname="QUAD(1:0)" name="QUAD" />
             <blockpin signalname="PAUSED(1:0)" name="PAUSED" />
             <blockpin signalname="DIR(1:0)" name="DIR" />
@@ -692,7 +692,7 @@
         <text style="fontsize:24;fontname:Arial" x="1804" y="1504">DETECT ENCODER DIRECTION</text>
         <instance x="2512" y="1744" name="XLXI_561(1:0)" orien="R0">
         </instance>
-        <rect width="1112" x="1772" y="1776" height="552" />
+        <rect width="1112" x="1772" y="1776" height="600" />
         <branch name="RST">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2016" y="1872" type="branch" />
             <wire x2="2080" y1="1872" y2="1872" x1="2016" />
@@ -740,7 +740,7 @@
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2016" y="2128" type="branch" />
             <wire x2="2080" y1="2128" y2="2128" x1="2016" />
         </branch>
-        <branch name="DISCRIM">
+        <branch name="L">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2016" y="2064" type="branch" />
             <wire x2="2080" y1="2064" y2="2064" x1="2016" />
         </branch>
@@ -772,5 +772,7 @@
         <text style="alignment:CENTER;fontsize:24;fontname:Arial" x="3544" y="2556">ADDED PHASE DISCRIMINATOR</text>
         <text style="alignment:CENTER;fontsize:24;fontname:Arial" x="3544" y="2588">ADDED SENC SMOOTHER</text>
         <text style="fontsize:24;fontname:Arial" x="2448" y="2212">(11:0 AS COLLECTS 2 INSTANCES)</text>
+        <text style="fontsize:24;fontname:Arial" x="1792" y="2312">SMOOTHING DIDN'T MAKE MUCH DIFFERENCE</text>
+        <text style="fontsize:24;fontname:Arial" x="1820" y="2340">- MAYBE DUE TO SMOOTHING ALSO IN DDB</text>
     </sheet>
 </drawing>

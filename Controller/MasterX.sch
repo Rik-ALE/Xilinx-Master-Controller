@@ -1307,8 +1307,7 @@
         <text style="fontsize:24;fontname:Arial" x="1924" y="508">IF QUAD SPI FITTED</text>
         <text style="fontsize:24;fontname:Arial" x="2232" y="504">J4 = TP(7:0) ON MSi-02</text>
         <text style="fontsize:36;fontname:Arial" x="1592" y="280">*** TEST CODE IN REGSEQ.SCH ***</text>
-        <text style="fontsize:24;fontname:Arial" x="1572" y="156">SYNC SMOOTH USAGE 8 BUFFS: 34/74%</text>
         <text style="fontsize:24;fontname:Arial" x="1576" y="216">SYNC SMOOTH USAGE 16 BUFFS: clock slack issues</text>
-        <text style="fontsize:24;fontname:Arial" x="1572" y="188">SYNC SMOOTH USAGE 8 BUFFS: 34/74%</text>
+        <text style="fontsize:24;fontname:Arial" x="1572" y="188">SYNC SMOOTH USAGE 8 BUFFS: 34/74% (DISABLED AS NO BENEFIT)</text>
     </sheet>
 </drawing>

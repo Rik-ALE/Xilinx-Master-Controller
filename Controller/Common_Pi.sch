@@ -178,10 +178,9 @@
         <signal name="CLKCORE,CLK96M" />
         <signal name="HEADSM1(2)" />
         <signal name="LX(9:0)" />
-        <signal name="TPIO(3:0),SDCLK(0),HDLOG(0:1),SFIRE(0:1),SDCLK(1)" />
-        <signal name="L,L,L,L,TPIO(5:0)" />
         <signal name="XLXN_2015(4:0)" />
         <signal name="XLXN_2016(4:0)" />
+        <signal name="TPIO(3:0),SDCLK(0),HDLOG(0:1),SFIRE(0:1),SDCLK(1)" />
         <port polarity="Output" name="CLKCORE" />
         <port polarity="Output" name="RSTn" />
         <port polarity="Output" name="TTZMODE" />
@@ -1132,7 +1131,7 @@
         </block>
         <block symbolname="m2_1" name="XLXI_1673(9:0)">
             <blockpin signalname="LX(9:0)" name="D0" />
-            <blockpin signalname="L,L,L,L,TPIO(5:0)" name="D1" />
+            <blockpin signalname="TPIO(3:0),SDCLK(0),HDLOG(0:1),SFIRE(0:1),SDCLK(1)" name="D1" />
             <blockpin signalname="OK_500" name="S0" />
             <blockpin signalname="TP(9:0)" name="O" />
         </block>
@@ -2390,7 +2389,6 @@
         <text style="fontsize:24;fontname:Arial" x="68" y="2132">PHASE DISCRIMINATOR</text>
         <text style="fontsize:24;fontname:Arial" x="5020" y="2688">EEPROM, SENC DISCR,</text>
         <text style="fontsize:24;fontname:Arial" x="2936" y="3612">ONESERIES DEBUG</text>
-        <text style="fontsize:24;fontname:Arial" x="2652" y="3680">MPI DEBUG (UNLESS 250 SIZE AS WON'T FIT)</text>
         <branch name="JITTER(1:0)">
             <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="912" y="1968" type="branch" />
             <wire x2="912" y1="1968" y2="1968" x1="848" />
@@ -2533,16 +2531,8 @@
         <text style="fontsize:24;fontname:Arial" x="4072" y="3600">V10/06: ImgErrs. Uncompressed DEV378/BUG520 work. SPI samples on 144MHz instead of 96MHz. Img buffer size work.</text>
         <text style="fontsize:24;fontname:Arial" x="4072" y="3632">V11/07 SpiErr (red-spot error) due to IFD not clocked by 144MHz on i/p</text>
         <text style="fontsize:24;fontname:Arial" x="4076" y="3660">V8 (MPi/MX): MasterSi support Rj45 DUBSPEED</text>
-        <text style="fontsize:24;fontname:Arial" x="4076" y="3688">V9 (MPi/MX): DataIn latch fix,senc smooth, removed SRAM acc</text>
+        <text style="fontsize:24;fontname:Arial" x="4076" y="3688">V9-draft (MPi/MX): DataIn latch fix,senc smooth (disabled), removed SRAM acc</text>
         <text style="fontsize:24;fontname:Arial" x="3272" y="1828">(REMOVED V12)</text>
-        <branch name="L,L,L,L,TPIO(5:0)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="3088" y="3712" type="branch" />
-            <wire x2="3152" y1="3712" y2="3712" x1="3088" />
-        </branch>
-        <branch name="TPIO(3:0),SDCLK(0),HDLOG(0:1),SFIRE(0:1),SDCLK(1)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2864" y="3744" type="branch" />
-            <wire x2="2928" y1="3744" y2="3744" x1="2864" />
-        </branch>
         <line x2="2360" y1="3648" y2="3724" x1="2364" />
         <line x2="2360" y1="3708" y2="3724" x1="2372" />
         <line x2="2360" y1="3708" y2="3720" x1="2348" />
@@ -2568,5 +2558,10 @@
         </branch>
         <text style="fontsize:24;fontname:Arial" x="4776" y="3104">MPi+MX</text>
         <text style="fontsize:24;fontname:Arial" x="4748" y="3056">One</text>
+        <text style="fontsize:24;fontname:Arial" x="2944" y="3684">MPI/MX DEBUG</text>
+        <branch name="TPIO(3:0),SDCLK(0),HDLOG(0:1),SFIRE(0:1),SDCLK(1)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="3088" y="3712" type="branch" />
+            <wire x2="3152" y1="3712" y2="3712" x1="3088" />
+        </branch>
     </sheet>
 </drawing>
